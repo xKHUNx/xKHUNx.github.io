@@ -15,7 +15,9 @@ I hope to share some of the topics I find interesting, including, but not limite
 ### Wait a minute? Who are you?
 ![kazoo_kid_gif](https://thumbs.gfycat.com/UntidyMemorableBangeltiger-small.gif)
 
-I am Goh Kun Shun, but I prefer to be called ***Khun***. I'm from Malaysia. I have graduated from Multimedia University, Cyberjaya with a Bachelor of Computer Science degree. I major in data science and I am interested in the development of AI technology, especially in the field of NLP (natural language processing). In case you didn't noticed, I love memes and I even had my own [meme page](https://www.facebook.com/I-dont-make-memes-I-stole-them-1174592176045115/) on Facebook.
+I am Goh Kun Shun, but I prefer to be called ***Khun***. I'm from Malaysia. I have graduated from Multimedia University, Cyberjaya with a Bachelor of Computer Science degree. I major in data science and I am interested in the development of AI technology, especially in the field of NLP (natural language processing). 
+
+In case you didn't noticed, I love memes and I even had my own [meme page](https://www.facebook.com/I-dont-make-memes-I-stole-them-1174592176045115/) on Facebook.
 
 ### Why did you start this blog?
 
