@@ -9,6 +9,7 @@ tags: personal
 
 ### Welcome
 ![welcome_gif](https://media1.giphy.com/media/FQyQEYd0KlYQ/giphy.gif)
+
 I hope to share some of the topics I find interesting, including, but not limited to AI technology, web development, science, history and more!
 
 ### Wait a minute? Who are you?
