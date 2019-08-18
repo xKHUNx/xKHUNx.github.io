@@ -33,7 +33,7 @@ avatar: 'https://lh3.googleusercontent.com/vRcDYyCV0xnCVxUME3nSyM9TUd5G8JdBXJ9fL
 search: true
 
 # Night mode
-nightMode: true
+nightMode: false
 
 # Comments 评论功能
 comments:
