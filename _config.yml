@@ -1,6 +1,6 @@
 # Site settings 配置站点
 title: 'Khun'
-description: 'Machine learning engineer.'
+description: 'Machine Learning Engineer.'
 keyword: 'machine, learning, ai, khun, kun, shun'
 url: 'https://xkhunx.github.io' # your host
 
@@ -26,7 +26,7 @@ footer:
 # Author 配置博主信息
 author: 'Goh Kun Shun'
 nickname: 'Khun'
-bio: 'Machine learning engineer, hobby designer'
+bio: 'Machine Learning Engineer, Hobby Designer'
 avatar: 'https://lh3.googleusercontent.com/vRcDYyCV0xnCVxUME3nSyM9TUd5G8JdBXJ9fL8368pNnJOwvZsYdi9y3vUKP9eo36VwFf1SF5BDxtwQYSawlFlU9MdbKhUVq3Saq9WD7Cw=s499-rw-no'
 
 # Search
