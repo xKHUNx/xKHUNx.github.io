@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Welcome to Khun's blog!'
+title: 'Welcome to Khun''s blog!'
 date: 2019-08-18
 author: Khun
 cover: 'https://jekyllrb.com/img/jekyll-og.png'
