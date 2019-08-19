@@ -4,6 +4,9 @@ description: '昆虫的部落客'
 keyword: 'machine, learning, ai, khun, kun, shun, knowledge, graph, rdf, data, nlp'
 url: '' # your host
 
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-145920753-1
+
 # when build blog on server, if you don't need baseurl, you should leave this value blank.
 # 在服务器上建站时，如果你不需要子域名，请将这一格留空
 # if you're using GitHub Pages, set baseurl to your blog's .
