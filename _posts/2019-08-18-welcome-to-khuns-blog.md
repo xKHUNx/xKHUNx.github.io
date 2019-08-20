@@ -3,7 +3,7 @@ layout: post
 title: 'Welcome to Khun''s blog!'
 date: 2019-08-18
 author: Khun
-cover: 'https://www.ordinaryreviews.com/wp-content/uploads/2018/06/blogging-earn-side-income-malaysia-800x411.jpg'
+cover: '/assets/images/putrajaya-monorail.jpg'
 tags: personal
 ---
 
