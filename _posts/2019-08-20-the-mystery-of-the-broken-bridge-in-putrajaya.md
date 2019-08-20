@@ -4,7 +4,7 @@ title: 'The Mystery of the Broken Bridge in Putrajaya'
 date: 2019-08-20
 author: Khun
 cover: '/assets/img/putrajaya-bridge/putrajaya-monorail-large.jpg'
-tags: travel, trivial, bridge, Putrajaya
+tags: travel trivial bridge Putrajaya
 ---
 
 ### Putrajaya, the city of bridge
