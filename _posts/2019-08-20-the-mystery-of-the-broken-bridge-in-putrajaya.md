@@ -4,26 +4,34 @@ title: 'The Mystery of the Broken Bridge in Putrajaya'
 date: 2019-08-20
 author: Khun
 cover: '/assets/img/putrajaya-bridge/putrajaya-monorail-large.jpg'
-tags: personal
+tags: travel, trivial, bridge, Putrajaya
 ---
 
-### The Bridge
+### Putrajaya, the city of bridge
 ![seri-wawasan-bridge](/assets/img/putrajaya-bridge/wawasan-bridge.jpg)
+*The Seri Wawasan Bridge in the night.*
 
 If you ever went to Putrajaya, you will notice that there are a lot of bridges there. There are at least 6 bridges. The Seri Wawasan Bridge and Seri Saujana Bridge are especially beautiful in the night, with colorful lightings illuminating the bridges.
 
-Then, there is this one bridge,  sitting in the middle of these two majestic bridges. You can barely notice it during the night.
+Then, there is this one bridge, sitting between these two majestic bridges. You can barely notice it during the night.
 
 But on the broad daylight, if you take a closer look, you will notice that the bridge is disconnected from the land! Yeap, it's basically useless.
 
-### Wait a minute? Who are you?
+### The Bridge
+![broken-bridge](/assets/img/putrajaya-bridge/putrajaya-monorail-large.jpg)
+*If you looked closely, you will see the bridge is disconnected from the land.*
 
-I am Goh Kun Shun, but I prefer to be called ***Khun***. I'm from Malaysia. I have graduated from Multimedia University, Cyberjaya with a Bachelor of Computer Science degree. I major in data science and I am interested in the development of AI technology, especially in the field of NLP (natural language processing). 
+I first stumble upon this odd bridge where my friend and I were hanging out in Putrajaya during the night. I kinda noticed the bridge seems odd, but I reason it was just dark and I couldn't see the bridge clearly.
 
-In case you didn't noticed, I love memes and I even had my own [meme page](https://www.facebook.com/I-dont-make-memes-I-stole-them-1174592176045115/) on Facebook.
+The second time, I was there with my family under the broad daylight. We quickly noticed the bridge is really disconnected from the land, on both sides. We had some pictures and moved on to somewhere else. But , these questions kept popping in my mind: _Who built these bridge? Why is it disconnected? What purpose does it serve?_
 
-### Why did you start this blog?
+![i-have-several-questions](https://i.kym-cdn.com/photos/images/facebook/001/291/420/65c.jpg)
 
-I had always wanted to had my own blog, but I never had the time to start one until my friend introduced me to [this tutorial](https://github.com/barryclark/jekyll-now), where I learned how to start my own blog using GitHub. I hope to use this blog as a platform to share things I find useful or interesting to this world. 
+### The Investigation
+<img alt="google-map" src="/assets/img/putrajaya-bridge/google-map.png" width="450">
+*You can find the bridge from Google Map.*
 
-I hoped you enjoyed the content!
+### The Truth
+![google-map](/assets/img/putrajaya-bridge/putrajaya-monorail.jpg)
+
+### 
