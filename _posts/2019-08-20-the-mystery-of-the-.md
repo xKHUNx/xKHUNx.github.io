@@ -3,17 +3,16 @@ layout: post
 title: 'The Mystery of the Broken Bridge in Putrajaya'
 date: 2019-08-20
 author: Khun
-cover: '![_config.yml]({{ site.baseurl }}/assets/images/putrajaya-monorail.jpg'
+cover: '/assets/img/putrajaya-monorail.jpg'
 tags: personal
 ---
 
 ### Welcome
-![welcome_gif](https://media1.giphy.com/media/FQyQEYd0KlYQ/giphy.gif)
+![broken-bridge](/assets/img/putrajaya-monorail.jpg)
 
 I hope to share some of the topics I find interesting, including, but not limited to AI technology, web development, science, history and more!
 
 ### Wait a minute? Who are you?
-![kazoo_kid_gif](https://thumbs.gfycat.com/UntidyMemorableBangeltiger-small.gif)
 
 I am Goh Kun Shun, but I prefer to be called ***Khun***. I'm from Malaysia. I have graduated from Multimedia University, Cyberjaya with a Bachelor of Computer Science degree. I major in data science and I am interested in the development of AI technology, especially in the field of NLP (natural language processing). 
 
