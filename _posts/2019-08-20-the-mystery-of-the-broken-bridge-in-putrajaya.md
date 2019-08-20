@@ -3,14 +3,18 @@ layout: post
 title: 'The Mystery of the Broken Bridge in Putrajaya'
 date: 2019-08-20
 author: Khun
-cover: '/assets/img/putrajaya-monorail.jpg'
+cover: '/assets/img/putrajaya-bridge/putrajaya-monorail-large.jpg'
 tags: personal
 ---
 
-### Welcome
-![broken-bridge](/assets/img/putrajaya-monorail.jpg)
+### The Bridge
+![seri-wawasan-bridge](/assets/img/putrajaya-bridge/wawasan-bridge.jpg)
 
-I hope to share some of the topics I find interesting, including, but not limited to AI technology, web development, science, history and more!
+If you ever went to Putrajaya, you will notice that there are a lot of bridges there. There are at least 6 bridges. The Seri Wawasan Bridge and Seri Saujana Bridge are especially beautiful in the night, with colorful lightings illuminating the bridges.
+
+Then, there is this one bridge,  sitting in the middle of these two majestic bridges. You can barely notice it during the night.
+
+But on the broad daylight, if you take a closer look, you will notice that the bridge is disconnected from the land! Yeap, it's basically useless.
 
 ### Wait a minute? Who are you?
 
