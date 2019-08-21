@@ -183,7 +183,7 @@
 
 .markdown-body img {
   display: block;
-  margin: 32px auto;
+/*   margin: 32px auto; */
   max-width: 100%;
   background-color: #fff;
   border-style: none;
@@ -633,10 +633,4 @@ li p:nth-child(2) {
 
 .markdown-body hr {
   border-bottom-color: #eee;
-}
-
-/* Custom */
-img + em {
-  text-align: center;
-  margin: 0;
 }
