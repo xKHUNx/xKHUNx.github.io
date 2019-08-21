@@ -31,6 +31,12 @@ The second time, I was there with my family under the broad daylight. We quickly
 ![google-map](/assets/img/putrajaya-bridge/google-map.png)
 *You can find the bridge from Google Map.*
 
+The very next day, I pull out my laptop and started Googling about the mysterious bridge. I typed in 'putrajaya broken bridge', half expecting a Wikipedia page to show up. Instead, a Google Map shows up, with the pinpointing a place called 'Putrajaya Broken Bridge'. 
+
+So I clicked in and realized it was the same bridge I was looking for. But this doesn't answer my questions. So I took a closer look, and found another location, called 'Jambatan Monorel Putrajaya'. For those who don't understand Malay, it translates to English as  'Putrajaya Monorail  Bridge'.
+
+And bam! I found our first lead. So for some reason, there are two locations referring to the same bridge. Anyway, Googling with 'Putrajaya Monorail  Bridge' yields a Wikipedia page (finally!) titled <a href="https://en.wikipedia.org/wiki/Putrajaya_Monorail" target="_blank">Hello, world!</a>.
+
 
 
 ### The Truth
