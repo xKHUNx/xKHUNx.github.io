@@ -35,7 +35,7 @@ The very next day, I pull out my laptop and started Googling about the mysteriou
 
 So I clicked in and realized it was the same bridge I was looking for. But this doesn't answer my questions. So I took a closer look, and found another location, called 'Jambatan Monorel Putrajaya'. For those who don't understand Malay, it translates to English as  'Putrajaya Monorail  Bridge'.
 
-And bam! I found our first lead. So for some reason, there are two locations referring to the same bridge. Anyway, Googling with 'Putrajaya Monorail  Bridge' yields a Wikipedia page (finally!) titled <a href="https://en.wikipedia.org/wiki/Putrajaya_Monorail" target="_blank">Hello, world!</a>.
+And bam! I found our first lead. So for some reason, there are two locations referring to the same bridge. Anyway, Googling with 'Putrajaya Monorail  Bridge' yields a Wikipedia page (finally!) titled <a href="https://en.wikipedia.org/wiki/Putrajaya_Monorail" target="_blank">Putrajaya Monorail</a>.
 
 
 
