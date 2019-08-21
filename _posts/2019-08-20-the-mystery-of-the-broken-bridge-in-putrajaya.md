@@ -8,9 +8,10 @@ tags: travel trivial bridge Putrajaya
 ---
 
 ### Putrajaya - the City of Bridges
-![seri-wawasan-bridge](/assets/img/putrajaya-bridge/wawasan-bridge.jpg)
-
-<center><i>The Seri Wawasan Bridge in the night.</i></center>
+<figure>
+  <img src="{{site.url}}/assets/img/putrajaya-bridge/wawasan-bridge.jpg" alt="seri-wawasan-bridge"/>
+  <figcaption>The Seri Wawasan Bridge in the night.</figcaption>
+</figure>
 
 If you ever went to Putrajaya, you will notice that there are a lot of bridges there. There are at least 6 bridges. The Seri Wawasan Bridge and Seri Saujana Bridge are especially beautiful in the night, with colorful lightings illuminating the bridges.
 
