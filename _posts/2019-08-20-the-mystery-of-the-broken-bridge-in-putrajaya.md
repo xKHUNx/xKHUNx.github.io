@@ -11,8 +11,6 @@ tags: travel trivial bridge Putrajaya
 ![seri-wawasan-bridge](/assets/img/putrajaya-bridge/wawasan-bridge.jpg)
 *The Seri Wawasan Bridge in the night.*
 
-{% include image.html url="/assets/img/putrajaya-bridge/wawasan-bridge.jpg" description="The Seri Wawasan Bridge in the night." alt="seri-wawasan-bridge" %}
-
 If you ever went to Putrajaya, you will notice that there are a lot of bridges there. There are at least 6 bridges. The Seri Wawasan Bridge and Seri Saujana Bridge are especially beautiful in the night, with colorful lightings illuminating the bridges.
 
 Then, there is this one bridge, sitting between these two majestic bridges. You can barely notice it during the night.
@@ -38,4 +36,4 @@ The second time, I was there with my family under the broad daylight. We quickly
 ### The Truth
 ![putrajaya-monorail](/assets/img/putrajaya-bridge/putrajaya-monorail.jpg)
 
-### 
+### Takeaways
