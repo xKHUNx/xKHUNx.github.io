@@ -634,3 +634,9 @@ li p:nth-child(2) {
 .markdown-body hr {
   border-bottom-color: #eee;
 }
+
+/* Custom */
+img + em {
+  text-align: center;
+  margin: 0;
+}
