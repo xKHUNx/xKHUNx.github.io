@@ -86,11 +86,9 @@ RSS: false
 permalink: /:year/:month/:day/:title.html
 
 # Plugins
-plugins: [jekyll-paginate]
-
-# Gems
-gems:
-  - jekyll-maps # Using jekyll map plugin
+plugins:
+- jekyll-paginate
+- jekyll-maps # Using jekyll map plugin
   
 # Jekyll-maps settings
 maps:
