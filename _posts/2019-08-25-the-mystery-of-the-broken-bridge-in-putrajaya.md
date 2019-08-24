@@ -76,6 +76,7 @@ The bridge is now standing in Precinct 4. It is located near the iconic Iron Mos
 
 ### The Takeaways
 Here's a summary for what you've learned from this post.
+
  - There are 9 bridges in Putrajaya.
  - The abandoned bridge known as Monorail Suspension Bridge is part of an abandoned project, the Putrajaya Monorail.
  - The project might be revived in the future!
