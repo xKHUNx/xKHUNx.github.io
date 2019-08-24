@@ -74,10 +74,8 @@ There are rumors that Putrajaya Holdings Sdn Bhd, which is the master developer 
 ### Where can I find it?
 The bridge is now standing in Precinct 4. It is located near the iconic Iron Mosque beside the lake.
 
- {% google_map %}
-
 ### The Takeaways
 Here's a summary for what you've learned from this post.
-There are 9 bridges in Putrajaya.
-The abandoned bridge known as Monorail Suspension Bridge is part of an abandoned project, the Putrajaya Monorail.
-The project might be revived in the future!
+ - There are 9 bridges in Putrajaya.
+ - The abandoned bridge known as Monorail Suspension Bridge is part of an abandoned project, the Putrajaya Monorail.
+ - The project might be revived in the future!
