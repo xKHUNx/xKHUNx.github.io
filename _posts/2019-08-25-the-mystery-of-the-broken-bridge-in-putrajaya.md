@@ -5,6 +5,9 @@ date: 2019-08-25
 author: Khun
 cover: '/assets/img/putrajaya-bridge/putrajaya-monorail-large.jpg'
 tags: travel trivial bridge Putrajaya
+location:
+  latitude: 51.5285582
+  longitude: -0.2416807
 ---
 
 In Putrajaya, you may catch the sight of this one weird bridge. It is disconnected on both side from the land it was supposed to be connected to. What is the bridge doing there? Why is it there? You will find out in this article.
@@ -73,6 +76,8 @@ There are rumors that Putrajaya Holdings Sdn Bhd, which is the master developer 
 
 ### Where can I find it?
 The bridge is now standing in Precinct 4. It is located near the iconic Iron Mosque beside the lake.
+
+ {% google_map %}
 
 ### The Takeaways
 Here's a summary for what you've learned from this post.
