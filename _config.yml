@@ -87,3 +87,7 @@ permalink: /:year/:month/:day/:title.html
 
 # Plugins
 plugins: [jekyll-paginate]
+
+# Gems
+gems:
+  - jekyll-maps # Using jekyll map plugin
