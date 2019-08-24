@@ -5,9 +5,6 @@ date: 2019-08-25
 author: Khun
 cover: '/assets/img/putrajaya-bridge/putrajaya-monorail-large.jpg'
 tags: travel trivial bridge Putrajaya
-location:
-  latitude: 51.5285582
-  longitude: -0.2416807
 ---
 
 In Putrajaya, you may catch the sight of this one weird bridge. It is disconnected on both side from the land it was supposed to be connected to. What is the bridge doing there? Why is it there? You will find out in this article.
