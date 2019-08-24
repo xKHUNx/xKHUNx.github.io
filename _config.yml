@@ -91,3 +91,8 @@ plugins: [jekyll-paginate]
 # Gems
 gems:
   - jekyll-maps # Using jekyll map plugin
+  
+# Jekyll-maps settings
+maps:
+  google:
+    api_key: AIzaSyAbZ9aa-zAIvohHRIRZ9yPy_F2V1ZKNbqs
