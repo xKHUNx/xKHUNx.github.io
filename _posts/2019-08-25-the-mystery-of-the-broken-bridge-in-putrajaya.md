@@ -74,7 +74,7 @@ There are rumors that Putrajaya Holdings Sdn Bhd, which is the master developer 
 ### Where can I find it?
 The bridge is now standing in Precinct 4. It is located near the iconic Iron Mosque beside the lake.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.6530381655825!2d101.67748311457557!3d2.9157813978762888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a82de88010b893d!2sPutrajaya%20Broken%20Bridge!5e0!3m2!1sen!2smy!4v1566672556680!5m2!1sen!2smy" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14983.53058552519!2d101.6789553!3d2.9162785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a82de88010b893d!2sPutrajaya%20Broken%20Bridge!5e1!3m2!1sen!2smy!4v1566744096198!5m2!1sen!2smy" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 ### The Takeaways
 Here's a summary for what you've learned from this post.
