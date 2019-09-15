@@ -4,6 +4,8 @@ title: 'The Creature with Magical Ballsack'
 date: 2019-09-15
 author: Khun
 cover: '/assets/img/tanuki/namazu_hyotan_kintama.jpg'
+image_sliders:
+  - slider4
 tags: travel tanuki Japan
 ---
 
