@@ -56,3 +56,17 @@
   settings:
     height: "'auto'"
     disableNav: true
+
+- selector: slider4
+  bullets: true
+  captions: true
+  images:
+    - src: /img/tanuki/namazu_hyotan_kintama.jpg
+      title: Big nutsack!
+      alt: This slider has caption titles
+    - data-src: /img/putrajaya-bridge/erl.jpg
+      title: ERL lulz
+      alt: Instead of the default slide effect
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
