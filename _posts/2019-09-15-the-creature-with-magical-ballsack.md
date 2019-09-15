@@ -20,7 +20,7 @@ During my trip to Japan, I noticed there are a lot of statues of this peculiar c
 ### So What are These Mysterious Creature?
 “What are these creatures?” I asked myself when I first saw it. But I was quickly distracted by other things. When I was inspecting the pictures back in Malaysia, I noticed these odd statues again, so I Google it. It was difficult to Google something without knowing its name, but alas, I typed in “Kameoka Station statue” and out comes the answer.
 
-### Tanuki - A sem-mythical Creature
+### Tanuki - A Semi-Mythical Creature
 The creatures I saw are called tanuki (たぬき) in Japan, or Japanese Raccoon Dog in English, and 貉 or sometimes 狸猫 in Mandarin. It is featured prominently in Japanese folktales and legends. Tanuki or more accurately bake-danuki (化け狸) (roughly translate to shapeshifting tanuki) has shapeshifting ability, and they like to trick people by changing into people and various objects. It is considered a yokai 妖怪 (supernatural creatures), along with the likes of kappa and tengu. 
 
 Kitsune (fox) is another creature that had the shapeshifting ability, but there is a saying in Japanese 「狐七化け狸八化け」which roughly translates to “Fox has seven forms, and tanuki has eight forms”, which shows the superior shapeshifting skill of a tanuki. Unlike a fox, which is usually more serious, a tanuki possesses a more mischievous trait, often trick people for the heck of it. Tanuki and fox were once considered as the same animal, and tanuki inherited the trickster trait from the fox folklore, which the Japanese were influenced by the Chinese. The word 狐狸 (hú li) refers to a fox in Mandarin, but it is pronounced kori in Japanese, and refers to all sorts of supernatural and troublesome occurrences, with tanuki and fox as the culprit. Tanuki is also also known as mujina in a certain region, but it mostly means badger. The whole thing is a mess that I won’t get into.
@@ -64,9 +64,9 @@ The tanuki statues are often depicted with these eight traits, symbolizing its e
 7. The straw hat symbolizes readiness and protection against bad weather (meaning bad times).
 8. The friendly smile which supposedly means a friendly attitude towards customers.
 
-	There is also a traditional interpretation of these eight traits, which I won’t get into, you can read it here. This is one of the main sources of information I used when doing researching tanuki.
+There is also a traditional interpretation of these eight traits, which I won’t get into, you can read it here. This is one of the main sources of information I used when doing researching tanuki.
  
- ### Tanuki and Their Magical Ballsack
+### Tanuki and Their Magical Ballsack
  Now we have reached the most anticipated section, to show you the magical ballsack of tanuki, and explain how and why the legend came to be. 
 
 As you can see in these images, tanuki is depicted to use their magical, flexible ballsack for just about anything. From using them as shade, to carry things, as archery target, as a fishing net, as shop signs, as a boat, as a drum and a plethora of other activities and function that you wouldn’t normally use your ballsack to perform.
