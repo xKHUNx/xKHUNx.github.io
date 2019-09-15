@@ -12,6 +12,9 @@ tags: travel tanuki Japan
 If you ever visit Japan, watch out for these creatures. They can shapeshift into anything, perform illusion to trick you, and worst of all, they might use their magical ballsack to attack you!
 
 ### The Odd Statues in Kyoto
+
+{% include slider.html selector="slider4" %}
+
 During my trip to Japan, I noticed there are a lot of statues of this peculiar creature all around Kyoto. I saw one just outside of my Airbnb my homestay, guarding the house like a gnome, and also at a bunch of it, in various sizes at a train station in Kameoka. It looks like some sort of owl-headed bear, with a big fat belly, wearing a farmer hat. I didn’t notice at the time, but they had another prominent feature, BIG BALLSACKS! More on that later.
 
 ### So What are These Mysterious Creature?
