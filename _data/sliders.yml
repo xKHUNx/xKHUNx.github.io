@@ -11,3 +11,17 @@
   settings:
     height: "'auto'"
     effect: "'fade'"
+    
+- selector: slider_02_odd_statues
+  bullets: true
+  captions: true
+  images:
+    - src: "/assets/img/tanuki/01_odd_statues/tanuki-kameoka-station.jpg"
+      title: "Torokko Kameoka Station"
+      alt: "Mysterious sculptures at Kameoka Torokko Station in Kyoto."
+    - src: "/assets/img/tanuki/01_odd_statues/tanuki-homestay.jpg"
+      title: "Garden Gnome"
+      alt: "This mysterious creature stand guard infront of our Airbnb like a gnome."
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
