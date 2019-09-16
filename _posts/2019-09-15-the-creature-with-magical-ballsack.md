@@ -70,7 +70,6 @@ It is common to see some these statues in front of business establishments prima
 
 ### The Eight Traits of a Tanuki Statue
 
-{% include slider.html selector="slider_05_tanuki_eight_traits" %}
 
 The tanuki statues are often depicted with these eight traits, symbolizing its eight virtues:
 
@@ -87,7 +86,6 @@ There is also a traditional interpretation of these eight traits, which I won’
  
 ### Tanuki and Their Magical Ballsack
 
-{% include slider.html selector="slider_06_magical_ball_sack" %}
 
  Now we have reached the most anticipated section, to show you the magical ballsack of tanuki, and explain how and why the legend came to be. 
 
@@ -101,7 +99,7 @@ The legend of tanuki’s gigantic and malleable ballsack begins in the Kanazawa 
 
 ### The Real Tanuki
 
-{% include slider.html selector="slider_07_real_tanuki" %}
+
 
 So how is a tanuki like in real life? Tanuki is known as Japanese raccoon dog, but don't let the name fool you, it is closer to a fox than a dog or a raccoon. However, they share the common trait of being a member of the canine family.
 
