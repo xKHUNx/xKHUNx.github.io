@@ -18,7 +18,7 @@ If you ever visit Japan, watch out for these creatures. They can shapeshift into
 During my trip to Japan, I noticed there are a lot of statues of this peculiar creature all around Kyoto. I saw one just outside of my Airbnb my homestay, guarding the house like a gnome, and also at a bunch of it, in various sizes at a train station in Kameoka. It looks like some sort of owl-headed bear, with a big fat belly, wearing a farmer hat. I didn’t notice at the time, but they had another prominent feature, BIG BALLSACKS! More on that later.
 
 ### So What are These Mysterious Creature?
-“What are these creatures?” I asked myself when I first saw it. But I was quickly distracted by other things. When I was inspecting the pictures back in Malaysia, I noticed these odd statues again, so I Google it. It was difficult to Google something without knowing its name, but alas, I typed in “Kameoka Station statue” and out comes the answer.
+“What are these creatures?” I asked myself when I first saw it. But I was quickly distracted by other things. While I was scrolling through the pictures back in Malaysia, I noticed these odd statues again, so I decided to find out the mystery behind these statues. It was difficult to Google something without knowing its name, but alas, I typed in “Kameoka Station statue” and out comes the answer.
 
 ### Tanuki - A Semi-Mythical Creature
 The creatures I saw are called tanuki (たぬき) in Japan, or Japanese Raccoon Dog in English, and 貉 or sometimes 狸猫 in Mandarin. It is featured prominently in Japanese folktales and legends. Tanuki or more accurately bake-danuki (化け狸) (roughly translate to shapeshifting tanuki) has shapeshifting ability, and they like to trick people by changing into people and various objects. It is considered a yokai 妖怪 (supernatural creatures), along with the likes of kappa and tengu. 
@@ -41,7 +41,7 @@ Other tales include a story of tanuki shapeshifting into a kettle, challenge eac
 ### Origin of the Tanuki Statues
 With tanuki's reputation as a trickster in Japanese folklore, why did they get made into a statue that acre popular across Japan? And why did they look different from their classic depiction in the legends?
 
-Most of the tanuki statues found around Japan are Shigaraki-yaki, a type of ceramic ware made in the town of Koga in Shiga Prefecture. The town is famous for its kiln, being one of the six ancient kilns in Japan, as well as the ceramic pottery from the kiln. The common tanuki statues found in Japan is designed by Tetsuzo Fujiwara, a potter who moved to the area in 1936 and devoted the rest of his career to tanuki statuary. He “cutified” the tanukis from their evil look to an adorable creature.
+Most of the tanuki statues found around Japan are Shigaraki-yaki (信楽焼), a type of ceramic ware made in the town of Koga in Shiga Prefecture. The town is famous for its kiln, being one of the six ancient kilns in Japan, as well as the ceramic pottery from the kiln. The common tanuki statues found in Japan is designed by Tetsuzo Fujiwara, a potter who moved to the area in 1936 and devoted the rest of his career to tanuki statuary. He “cutified” the tanukis from their evil look to an adorable creature.
 
 How did the statue get popular? In 1951, Emperor Hirohito paid an Imperial visit to the town, the town prepared a special row of flag-waving tanuki statues. Emperor Hirohito was so charmed by this welcome that he wrote a poem about it. The poem goes: 
 “When I was a child, collecting those Raccoon Dog Ornament. 
