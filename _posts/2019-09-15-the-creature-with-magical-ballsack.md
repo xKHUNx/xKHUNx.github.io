@@ -11,6 +11,7 @@ image_sliders:
   - slider_04_tanuki_statues
   - slider_05_tanuki_eight_traits
   - slider_06_magical_ball_sack
+  - slider_07_real_tanuki
 tags: travel tanuki Japan
 ---
 
@@ -99,7 +100,7 @@ The legend of tanuki’s gigantic and malleable ballsack begins in the Kanazawa 
 
 ### The Real Tanuki
 
-
+{% include slider.html selector="slider_07_real_tanuki" %}
 
 So how is a tanuki like in real life? Tanuki is known as Japanese raccoon dog, but don't let the name fool you, it is closer to a fox than a dog or a raccoon. However, they share the common trait of being a member of the canine family.
 
