@@ -25,3 +25,24 @@
   settings:
     height: "'auto'"
     effect: "'fade'"
+
+- selector: 02_semi_mythical_creature
+  bullets: true
+  captions: true
+  images:
+    - src: "/assets/img/tanuki/02_semi_mythical_creature/kitsune-tanuki.png"
+      title: "Kitsune and Tanuki"
+      alt: "Name a more iconic duo.. I'll wait."
+    - src: "/assets/img/tanuki/02_semi_mythical_creature/kitsune-vs-tanuki.png"
+      title: "Kitsune vs Tanuki"
+      alt: "Flying-Dragon Tanuki battles with the Nine-Tailed White Fox."
+    - src: "/assets/img/tanuki/02_semi_mythical_creature/shapeshift_with_leaf.jpg"
+      title: "Tanuki Shapeshifting"
+      alt: "Tanuki may use a leaf when shapeshifting."
+    - src: "/assets/img/tanuki/02_semi_mythical_creature/tanuki-kettle.jpg"
+      title: "Bunbuku Chagama"
+      alt: "Bunbuku Chagama is a Japanese folktale or fairy tale about a tanuki, that uses its shapeshifting powers to reward its rescuer for his kindness."
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+    effect: "'fade'"
