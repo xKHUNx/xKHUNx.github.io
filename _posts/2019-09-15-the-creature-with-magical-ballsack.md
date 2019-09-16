@@ -7,6 +7,7 @@ cover: '/assets/img/tanuki/namazu_hyotan_kintama.jpg'
 image_sliders:
   - slider_01_odd_statues
   - slider_02_semi_mythical_creature
+  - slider_03_tanuki_legends
 tags: travel tanuki Japan
 ---
 
@@ -34,7 +35,7 @@ Tanuki often uses leaves as a tool to assist them in their trickery. Tanuki will
 
 ### Tanuki Legends
 
-
+{% include slider.html selector="slider_03_tanuki_legends" %}
 
 Now that you’re acquainted with a tanuki, it's time for some tales about tanuki. There are many folktales and legends about tanuki, ranging from creepy ones, funny ones and ones with a moral lesson. 
 
