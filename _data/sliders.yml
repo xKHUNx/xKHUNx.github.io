@@ -33,6 +33,41 @@
     effect: "'fade'"
     effect: "'fade'"
 
+- selector: slider_01_odd_statues
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/img/tanuki/01_odd_statues/tanuki-kameoka-station.jpg
+      title: "Torokko Kameoka Station"
+      alt: "Mysterious sculptures at Kameoka Torokko Station in Kyoto."
+    - src: /assets/img/tanuki/01_odd_statues/tanuki-homestay.jpg
+      title: "Garden Gnome"
+      alt: "This mysterious creature stand guard infront of our Airbnb like a gnome."
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+    
+- selector: slider_02_semi_mythical_creature
+  bullets: true
+  captions: true
+  images:
+    - src: "/assets/img/tanuki/02_semi_mythical_creature/kitsune-tanuki.png"
+      title: "Kitsune and Tanuki"
+      alt: "Name a more iconic duo.. I'll wait."
+    - src: "/assets/img/tanuki/02_semi_mythical_creature/kitsune-vs-tanuki.png"
+      title: "Kitsune vs Tanuki"
+      alt: "Flying-Dragon Tanuki battles with the Nine-Tailed White Fox."
+    - src: "/assets/img/tanuki/02_semi_mythical_creature/shapeshift_with_leaf.jpg"
+      title: "Tanuki Shapeshifting"
+      alt: "Tanuki may use a leaf when shapeshifting."
+    - src: "/assets/img/tanuki/02_semi_mythical_creature/tanuki-kettle.jpg"
+      title: "Bunbuku Chagama"
+      alt: "Bunbuku Chagama is a Japanese folktale or fairy tale about a tanuki, that uses its shapeshifting powers to reward its rescuer for his kindness."
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+    effect: "'fade'"
+
 - selector: slider_03_tanuki_legends
   bullets: true
   captions: true
@@ -42,16 +77,16 @@
       alt: "Tanuki: \"Hikoichi, tell me what is the thing you fear the most?\""
     - src: "/assets/img/tanuki/03_tanuki_legends/hikoichi_02.jpg"
       title: "2"
-      alt: "Hikoichi: \"Manjū (steamed buns) is my greatest fear. Please, don\'t tell anyone about this.\""
+      alt: "Hikoichi: \"Manjū (steamed buns) is my greatest fear. Please, don't tell anyone about this.\""
     - src: "/assets/img/tanuki/03_tanuki_legends/hikoichi_03.jpg"
       title: "3"
-      alt: "Tanuki: \"You\'re so dead\!\" *shapeshifts into human and went to town*"
+      alt: "Tanuki: \"You're so dead\!\" *shapeshifts into human and went to town*"
     - src: "/assets/img/tanuki/03_tanuki_legends/hikoichi_04.jpg"
       title: "4"
-      alt: "Hikoichi: \"Oh no! It\'s steamed buns\! My greatest fear.\" *nom nom nom*"
+      alt: "Hikoichi: \"Oh no! It's steamed buns\! My greatest fear.\" *nom nom nom*"
     - src: "/assets/img/tanuki/03_tanuki_legends/hikoichi_05.jpg"
       title: "5"
-      alt: "The tanuki, realizing he\'s fooled, throw rocks into Hikoichi\'s rice fields. Hikoichi: \"I\'m so glad the tanuki throw rocks instead of horse dung, that would've destroyed my crops.\""
+      alt: "The tanuki, realizing he's fooled, throw rocks into Hikoichi's rice fields. Hikoichi: \"I'm so glad the tanuki throw rocks instead of horse dung, that would've destroyed my crops.\""
     - src: "/assets/img/tanuki/03_tanuki_legends/hikoichi_06.jpg"
       title: "6"
       alt: "The next day, Hikoichi wake up with horse dung all over his rice fields. With the horse dung as fertilizers, Hikoichi had a good harvest that year."
@@ -59,3 +94,4 @@
     height: "'auto'"
     effect: "'fade'"
     effect: "'fade'"
+
