@@ -10,6 +10,7 @@ image_sliders:
   - slider_03_tanuki_legends
   - slider_04_tanuki_statues
   - slider_05_tanuki_eight_traits
+  - slider_06_magical_ball_sack
 tags: travel tanuki Japan
 ---
 
@@ -84,6 +85,7 @@ There is also a traditional interpretation of these eight traits, which I won’
  
 ### Tanuki and Their Magical Ballsack
 
+{% include slider.html selector="slider_06_magical_ball_sack" %}
 
  Now we have reached the most anticipated section, to show you the magical ballsack of tanuki, and explain how and why the legend came to be. 
 
