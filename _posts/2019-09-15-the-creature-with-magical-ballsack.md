@@ -8,6 +8,11 @@ image_sliders:
   - slider_01_odd_statues
   - slider_02_semi_mythical_creature
   - slider_03_tanuki_legends
+  - slider_04_tanuki_statues
+  - slider_05_tanuki_eight_traits
+  - slider_06_magical_ball_sack
+  - slider_07_real_tanuki
+  - slider_08_popular_culture
 tags: travel tanuki Japan
 ---
 
@@ -48,6 +53,7 @@ Other tales include a story of tanuki shapeshifting into a kettle, challenge eac
 
 ### Origin of the Tanuki Statues
 
+{% include slider.html selector="slider_04_tanuki_statues" %}
 
 With tanuki's reputation as a trickster in Japanese folklore, why did they get made into a statue that acre popular across Japan? And why did they look different from their classic depiction in the legends?
 
@@ -64,7 +70,7 @@ It is common to see some these statues in front of business establishments prima
 
 ### The Eight Traits of a Tanuki Statue
 
-
+{% include slider.html selector="slider_05_tanuki_eight_traits" %}
 
 The tanuki statues are often depicted with these eight traits, symbolizing its eight virtues:
 
@@ -81,6 +87,7 @@ There is also a traditional interpretation of these eight traits, which I won’
  
 ### Tanuki and Their Magical Ballsack
 
+{% include slider.html selector="slider_06_magical_ball_sack" %}
 
  Now we have reached the most anticipated section, to show you the magical ballsack of tanuki, and explain how and why the legend came to be. 
 
@@ -94,7 +101,7 @@ The legend of tanuki’s gigantic and malleable ballsack begins in the Kanazawa 
 
 ### The Real Tanuki
 
-
+{% include slider.html selector="slider_07_real_tanuki" %}
 
 So how is a tanuki like in real life? Tanuki is known as Japanese raccoon dog, but don't let the name fool you, it is closer to a fox than a dog or a raccoon. However, they share the common trait of being a member of the canine family.
 
@@ -110,7 +117,7 @@ Here is a [video](https://www.youtube.com/watch?v=W1zuPnEzA-o) of Aichan, a pet 
 
 ### Tanuki in Popular Culture
 
-
+{% include slider.html selector="slider_08_popular_culture" %}
 
 Being such a popular animal in Japan, it’s not hard to find tanuki in popular culture. Ghibli Studio’s Pom Poko, which is produced by Hayao Miyazaki is a movie that is centered around a group of tanuki, and their struggle to survive in the modern world as mankind expands into their territory for modern development. In one scene, a group of tanukis even attack humans with their magical ballsack.  Watching the movie is a great way to learn about tanuki in Japanese folktales and culture in general. I will definitely recommend anyone to watch it. Though be warned, there are a lot of tanuki testicles in the movie.
 
