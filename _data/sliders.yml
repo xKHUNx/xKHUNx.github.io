@@ -130,3 +130,64 @@
     height: "'auto'"
     effect: "'fade'"    
 
+- selector: slider_06_magical_ball_sack
+  bullets: true
+  captions: true
+  images:
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_01.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_02.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_03.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_04.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_05.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_06.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_07.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_08.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_09.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_10.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_11.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_12.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_13.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_14.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_15.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_16.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_17.jpg"
+      title: ~
+      alt: ~
+    - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_18.jpg"
+      title: "~ "
+      alt: ~
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
