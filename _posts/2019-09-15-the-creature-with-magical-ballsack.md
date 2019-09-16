@@ -5,7 +5,14 @@ date: 2019-09-15
 author: Khun
 cover: '/assets/img/tanuki/namazu_hyotan_kintama.jpg'
 image_sliders:
-  - slider4
+  - 01_odd_statues
+  - 02_semi_mythical_creature
+  - 03_tanuki_legends
+  - 04_tanuki_statues
+  - 05_tanuki_eight_traits
+  - 06_magical_ball_sack
+  - 07_real_tanuki
+  - 08_popular_culture
 tags: travel tanuki Japan
 ---
 
@@ -13,25 +20,31 @@ If you ever visit Japan, watch out for these creatures. They can shapeshift into
 
 ### The Odd Statues in Kyoto
 
-{% include slider.html selector="slider4" %}
+{% include slider.html selector="01_odd_statues" %}
 
 During my trip to Japan, I noticed there are a lot of statues of this peculiar creature all around Kyoto. I saw one just outside of my Airbnb my homestay, guarding the house like a gnome, and also at a bunch of it, in various sizes at a train station in Kameoka. It looks like some sort of owl-headed bear, with a big fat belly, wearing a farmer hat. I didn’t notice at the time, but they had another prominent feature, BIG BALLSACKS! More on that later.
 
 ### So What are These Mysterious Creature?
+
 “What are these creatures?” I asked myself when I first saw it. But I was quickly distracted by other things. While I was scrolling through the pictures back in Malaysia, I noticed these odd statues again, so I decided to find out the mystery behind these statues. It was difficult to Google something without knowing its name, but alas, I typed in “Kameoka Station statue” and out comes the answer.
 
 ### Tanuki - A Semi-Mythical Creature
+
+{% include slider.html selector="02_semi_mythical_creature" %}
+
 The creatures I saw are called tanuki (たぬき) in Japan, or Japanese Raccoon Dog in English, and 貉 or sometimes 狸猫 in Mandarin. It is featured prominently in Japanese folktales and legends. Tanuki or more accurately bake-danuki (化け狸) (roughly translate to shapeshifting tanuki) has shapeshifting ability, and they like to trick people by changing into people and various objects. It is considered a yokai 妖怪 (supernatural creatures), along with the likes of kappa and tengu. 
 
 Kitsune (fox) is another creature that had the shapeshifting ability, but there is a saying in Japanese 「狐七化け狸八化け」which roughly translates to “Fox has seven forms, and tanuki has eight forms”, which shows the superior shapeshifting skill of a tanuki. Unlike a fox, which is usually more serious, a tanuki possesses a more mischievous trait, often trick people for the heck of it. Tanuki and fox were once considered as the same animal, and tanuki inherited the trickster trait from the fox folklore, which the Japanese were influenced by the Chinese. The word 狐狸 (hú li) refers to a fox in Mandarin, but it is pronounced kori in Japanese, and refers to all sorts of supernatural and troublesome occurrences, with tanuki and fox as the culprit. Tanuki is also also known as mujina in a certain region, but it mostly means badger. The whole thing is a mess that I won’t get into.
 
 Tanuki often uses leaves as a tool to assist them in their trickery. Tanuki will put a leaf on their head, before transforming. They will also buy things with money that will turn into leaves after they're long gone.
 
-
 ### Tanuki Legends
+
+{% include slider.html selector="03_tanuki_legends" %}
+
 Now that you’re acquainted with a tanuki, it's time for some tales about tanuki. There are many folktales and legends about tanuki, ranging from creepy ones, funny ones and ones with a moral lesson. 
 
-There is a creepy legend in Miyoshi, where tanuki will lure people to hang themselves. The story roughly goes that a lady convinced her lover to both hang themselves, for their parents doesn’t approve of their relationship. They both hung on the tree as promised, the lady dies, but the man’s feet touched the ground as the tree branch snapped and his feet reached the ground. Some passerby saved the men and they found out that the woman was a tanuki all along, and the real lady is still alive. You can read the story here and here, I might have misread the story, as Google Translate doesn’t work too well for me. Feel free to correct me if I’m wrong. http://gakkenmu.jp/column/8813/
+There is a creepy legend in Miyoshi, where tanuki will lure people to hang themselves. The story roughly goes that a lady convinced her lover to both hang themselves, for their parents doesn’t approve of their relationship. They both hung on the tree as promised, the lady dies, but the man’s feet touched the ground as the tree branch snapped and his feet reached the ground. Some passerby saved the men and they found out that the woman was a tanuki all along, and the real lady is still alive. You can read the story [here](http://gakkenmu.jp/column/8813/) and [here](https://okab.exblog.jp/26997452). I might have misread the story, as I merely rely on Google Translate to translate the story. Feel free to correct me if I’m wrong. 
 
 In another story, a farmer named Hikoichi successfully counter the tanuki tricks, by tricking the tanuki into giving him a lot of steamed buns and fertilizing his farm. He told the tanuki his greatest fear is steamed buns, and it would be awful to have horse shit on his patch of a farm. The tanuki ended up supplying him with many steamed buns, and fertilize his farm with horse shit, all for free. I have read this tail in a book that I'm fond of during my childhood, and the pictures are shown.
 
@@ -39,6 +52,9 @@ Other tales include a story of tanuki shapeshifting into a kettle, challenge eac
 
 
 ### Origin of the Tanuki Statues
+
+{% include slider.html selector="04_tanuki_statues" %}
+
 With tanuki's reputation as a trickster in Japanese folklore, why did they get made into a statue that acre popular across Japan? And why did they look different from their classic depiction in the legends?
 
 Most of the tanuki statues found around Japan are Shigaraki-yaki (信楽焼), a type of ceramic ware made in the town of Koga in Shiga Prefecture. The town is famous for its kiln, being one of the six ancient kilns in Japan, as well as the ceramic pottery from the kiln. The common tanuki statues found in Japan is designed by Tetsuzo Fujiwara, a potter who moved to the area in 1936 and devoted the rest of his career to tanuki statuary. He “cutified” the tanukis from their evil look to an adorable creature.
@@ -53,6 +69,9 @@ It is common to see some these statues in front of business establishments prima
 
 
 ### The Eight Traits of a Tanuki Statue
+
+{% include slider.html selector="05_tanuki_eight_traits" %}
+
 The tanuki statues are often depicted with these eight traits, symbolizing its eight virtues:
 
 1. The big belly signifies bold and calm decision making.
@@ -67,6 +86,9 @@ The tanuki statues are often depicted with these eight traits, symbolizing its e
 There is also a traditional interpretation of these eight traits, which I won’t get into, you can read it here. This is one of the main sources of information I used when doing researching tanuki.
  
 ### Tanuki and Their Magical Ballsack
+
+{% include slider.html selector="06_magical_ball_sack" %}
+
  Now we have reached the most anticipated section, to show you the magical ballsack of tanuki, and explain how and why the legend came to be. 
 
 As you can see in these images, tanuki is depicted to use their magical, flexible ballsack for just about anything. From using them as shade, to carry things, as archery target, as a fishing net, as shop signs, as a boat, as a drum and a plethora of other activities and function that you wouldn’t normally use your ballsack to perform.
@@ -79,6 +101,8 @@ The legend of tanuki’s gigantic and malleable ballsack begins in the Kanazawa 
 
 ### The Real Tanuki
 
+{% include slider.html selector="07_real_tanuki" %}
+
 So how is a tanuki like in real life? Tanuki is known as Japanese raccoon dog, but don't let the name fool you, it is closer to a fox than a dog or a raccoon. However, they share the common trait of being a member of the canine family.
 
 Although a nocturnal animal, tanuki can be found active during the day time. They are omnivorous and can eat anything, ranging from fruits and berries to small animals like frogs and rodents. 
@@ -89,9 +113,11 @@ Although belonging to the canine family, they don’t bark, but rather produce a
 
 You might be wondering, do tanuki really have big and magical ballsack? Yes, and no. Yes, male tanuki with large scrotum are more likely to attract female and have a greater chance of getting their genes into the next generation. But their scrotum are not magical like in the folklore.
 
-Here is a video of Aichan, a pet tanuki. Pretty adorable if you ask me. https://www.youtube.com/watch?v=W1zuPnEzA-o
+Here is a [video](https://www.youtube.com/watch?v=W1zuPnEzA-o) of Aichan, a pet tanuki. Pretty adorable if you ask me. 
 
 ### Tanuki in Popular Culture
+
+{% include slider.html selector="08_popular_culture" %}
 
 Being such a popular animal in Japan, it’s not hard to find tanuki in popular culture. Ghibli Studio’s Pom Poko, which is produced by Hayao Miyazaki is a movie that is centered around a group of tanuki, and their struggle to survive in the modern world as mankind expands into their territory for modern development. In one scene, a group of tanukis even attack humans with their magical ballsack.  Watching the movie is a great way to learn about tanuki in Japanese folktales and culture in general. I will definitely recommend anyone to watch it. Though be warned, there are a lot of tanuki testicles in the movie.
 
