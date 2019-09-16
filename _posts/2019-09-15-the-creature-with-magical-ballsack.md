@@ -6,13 +6,6 @@ author: Khun
 cover: '/assets/img/tanuki/namazu_hyotan_kintama.jpg'
 image_sliders:
   - slider_01_odd_statues
-  - slider_02_semi_mythical_creature
-  - slider_03_tanuki_legends
-  - slider_04_tanuki_statues
-  - slider_05_tanuki_eight_traits
-  - slider_06_magical_ball_sack
-  - slider_07_real_tanuki
-  - slider_08_popular_culture
 tags: travel tanuki Japan
 ---
 
