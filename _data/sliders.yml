@@ -191,3 +191,26 @@
   settings:
     height: "'auto'"
     effect: "'fade'"
+
+- selector: slider_07_real_tanuki
+  bullets: true
+  captions: true
+  images:
+    - src: "/assets/img/tanuki/07_real_tanuki/Tanuki_By_Iwanafish-_Cropped.jpg"
+      title: ~
+      alt: "The real tanuki."
+    - src: "/assets/img/tanuki/07_real_tanuki/tanuki-couple.jpg"
+      title: ~
+      alt: "Like humans, tanukis often live in pairs."
+    - src: "/assets/img/tanuki/07_real_tanuki/tanuki-cute.jpg"
+      title: ~
+      alt: "An adorable tanuki."
+    - src: "/assets/img/tanuki/07_real_tanuki/tanuki-family.jpg"
+      title: ~
+      alt: "A family of tanuki."
+    - src: "/assets/img/tanuki/07_real_tanuki/tanuki-pups.jpg"
+      title: ~
+      alt: "Tanuki pups(?)."
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
