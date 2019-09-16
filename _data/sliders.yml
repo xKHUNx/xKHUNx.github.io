@@ -215,7 +215,7 @@
     height: "'auto'"
     effect: "'fade'"
     
-- selector: 08_popular_culture
+- selector: slider_08_popular_culture
   bullets: true
   captions: true
   images:
