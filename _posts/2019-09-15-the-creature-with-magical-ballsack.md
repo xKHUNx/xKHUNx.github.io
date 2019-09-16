@@ -12,6 +12,7 @@ image_sliders:
   - slider_05_tanuki_eight_traits
   - slider_06_magical_ball_sack
   - slider_07_real_tanuki
+  - slider_08_popular_culture
 tags: travel tanuki Japan
 ---
 
@@ -116,6 +117,7 @@ Here is a [video](https://www.youtube.com/watch?v=W1zuPnEzA-o) of Aichan, a pet 
 
 ### Tanuki in Popular Culture
 
+{% include slider.html selector="slider_08_popular_culture" %}
 
 Being such a popular animal in Japan, it’s not hard to find tanuki in popular culture. Ghibli Studio’s Pom Poko, which is produced by Hayao Miyazaki is a movie that is centered around a group of tanuki, and their struggle to survive in the modern world as mankind expands into their territory for modern development. In one scene, a group of tanukis even attack humans with their magical ballsack.  Watching the movie is a great way to learn about tanuki in Japanese folktales and culture in general. I will definitely recommend anyone to watch it. Though be warned, there are a lot of tanuki testicles in the movie.
 
