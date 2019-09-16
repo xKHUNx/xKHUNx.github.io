@@ -131,7 +131,7 @@
     effect: "'fade'"    
 
 - selector: slider_06_magical_ball_sack
-  bullets: true
+  bullets: false
   captions: true
   images:
     - src: "/assets/img/tanuki/06_magical_ball_sack/magicall_ballsack_01.jpg"
