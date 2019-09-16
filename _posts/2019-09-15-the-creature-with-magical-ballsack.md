@@ -9,6 +9,7 @@ image_sliders:
   - slider_02_semi_mythical_creature
   - slider_03_tanuki_legends
   - slider_04_tanuki_statues
+  - slider_05_tanuki_eight_traits
 tags: travel tanuki Japan
 ---
 
@@ -66,6 +67,7 @@ It is common to see some these statues in front of business establishments prima
 
 ### The Eight Traits of a Tanuki Statue
 
+{% include slider.html selector="slider_05_tanuki_eight_traits" %}
 
 The tanuki statues are often depicted with these eight traits, symbolizing its eight virtues:
 
