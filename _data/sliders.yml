@@ -116,3 +116,17 @@
     effect: "'fade'"
     effect: "'fade'"
     
+- selector: slider_05_tanuki_eight_traits
+  bullets: true
+  captions: true
+  images:
+    - src: "/assets/img/tanuki/05_tanuki_eight_traits/eight_traits_jp.png"
+      title: "八相縁起"
+      alt: ~
+    - src: "/assets/img/tanuki/05_tanuki_eight_traits/eight_traits_en.png"
+      title: "Tanuki’s Eight Blessings"
+      alt: ~
+  settings:
+    height: "'auto'"
+    effect: "'fade'"    
+
