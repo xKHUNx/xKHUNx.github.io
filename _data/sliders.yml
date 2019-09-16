@@ -12,7 +12,7 @@
     height: "'auto'"
     effect: "'fade'"
     
-- selector: slider_02_odd_statues
+- selector: slider_02_semi_mythical_creature
   bullets: true
   captions: true
   images:
