@@ -1,4 +1,4 @@
-- selector: 01_odd_statues
+- selector: slider_01_odd_statues
   bullets: true
   captions: true
   images:
