@@ -6,6 +6,7 @@ author: Khun
 cover: '/assets/img/tanuki/namazu_hyotan_kintama.jpg'
 image_sliders:
   - slider_01_odd_statues
+  - slider_02_semi_mythical_creature
 tags: travel tanuki Japan
 ---
 
@@ -23,7 +24,7 @@ During my trip to Japan, I noticed there are a lot of statues of this peculiar c
 
 ### Tanuki - A Semi-Mythical Creature
 
-
+{% include slider.html selector="slider_02_semi_mythical_creature" %}
 
 The creatures I saw are called tanuki (たぬき) in Japan, or Japanese Raccoon Dog in English, and 貉 or sometimes 狸猫 in Mandarin. It is featured prominently in Japanese folktales and legends. Tanuki or more accurately bake-danuki (化け狸) (roughly translate to shapeshifting tanuki) has shapeshifting ability, and they like to trick people by changing into people and various objects. It is considered a yokai 妖怪 (supernatural creatures), along with the likes of kappa and tengu. 
 
