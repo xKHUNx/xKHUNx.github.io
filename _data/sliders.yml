@@ -16,20 +16,6 @@
   bullets: true
   captions: true
   images:
-    - src: /assets/img/tanuki/01_odd_statues/tanuki-kameoka-station.jpg
-      title: "Torokko Kameoka Station"
-      alt: "Mysterious sculptures at Kameoka Torokko Station in Kyoto."
-    - src: /assets/img/tanuki/01_odd_statues/tanuki-homestay.jpg
-      title: "Garden Gnome"
-      alt: "This mysterious creature stand guard infront of our Airbnb like a gnome."
-  settings:
-    height: "'auto'"
-    effect: "'fade'"
-
-- selector: 02_semi_mythical_creature
-  bullets: true
-  captions: true
-  images:
     - src: "/assets/img/tanuki/02_semi_mythical_creature/kitsune-tanuki.png"
       title: "Kitsune and Tanuki"
       alt: "Name a more iconic duo.. I'll wait."
