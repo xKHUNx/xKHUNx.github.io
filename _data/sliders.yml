@@ -9,7 +9,7 @@
       title: "Garden Gnome"
       alt: "This mysterious creature stand guard infront of our Airbnb like a gnome."
   settings:
-    height: "'16:9'"
+    height: "'auto'"
     effect: "'fade'"
     
 - selector: slider_02_semi_mythical_creature
@@ -29,7 +29,7 @@
       title: "Bunbuku Chagama"
       alt: "Bunbuku Chagama is a Japanese folktale or fairy tale about a tanuki, that uses its shapeshifting powers to reward its rescuer for his kindness."
   settings:
-    height: "'16:9'"
+    height: "'auto'"
     effect: "'fade'"
     effect: "'fade'"
 
@@ -44,7 +44,7 @@
       title: "Garden Gnome"
       alt: "This mysterious creature stand guard infront of our Airbnb like a gnome."
   settings:
-    height: "'16:9'"
+    height: "'auto'"
     effect: "'fade'"
     
 - selector: slider_02_semi_mythical_creature
@@ -64,7 +64,7 @@
       title: "Bunbuku Chagama"
       alt: "Bunbuku Chagama is a Japanese folktale or fairy tale about a tanuki, that uses its shapeshifting powers to reward its rescuer for his kindness."
   settings:
-    height: "'16:9'"
+    height: "'auto'"
     effect: "'fade'"
     effect: "'fade'"
 
@@ -91,7 +91,7 @@
       title: "6"
       alt: "The next day, Hikoichi wake up with horse dung all over his rice fields. With the horse dung as fertilizers, Hikoichi had a good harvest that year."
   settings:
-    height: "'16:9'"
+    height: "'auto'"
     effect: "'fade'"
     effect: "'fade'"
 
@@ -112,7 +112,7 @@
       title: ~
       alt: "These tanuki statues are pretty adorable isn't it?"
   settings:
-    height: "'16:9'"
+    height: "'auto'"
     effect: "'fade'"
     effect: "'fade'"
     
@@ -127,7 +127,7 @@
       title: "Tanuki’s Eight Blessings"
       alt: ~
   settings:
-    height: "'16:9'"
+    height: "'auto'"
     effect: "'fade'"    
 
 - selector: slider_06_magical_ball_sack
@@ -189,7 +189,7 @@
       title: "~ "
       alt: ~
   settings:
-    height: "'16:9'"
+    height: "'auto'"
     effect: "'fade'"
 
 - selector: slider_07_real_tanuki
@@ -212,7 +212,7 @@
       title: ~
       alt: "Tanuki pups(?)."
   settings:
-    height: "'16:9'"
+    height: "'auto'"
     effect: "'fade'"
 
 - selector: slider_08_popular_culture
@@ -235,5 +235,5 @@
       title: "Gaara and Shukaku"
       alt: "Shukaku, one of the nine tailed beasts was last sealed within Gaara."
   settings:
-    height: "'16:9'"
+    height: "'auto'"
     effect: "'fade'"
