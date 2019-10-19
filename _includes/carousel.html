@@ -12,7 +12,7 @@
   <div class="carousel-inner">
     {% for picture in include.data %}
       {% if forloop.first == true %}
-        <div class="carousel-item active">
+        <div class="carousel-item item active">
           <div class="middle">
             {% if picture.title %}
               <img src="{{ picture.url }}" alt="{{ picture.title }}">
@@ -27,7 +27,7 @@
           </div>  
         </div>
       {% else %}
-        <div class="carousel-item">
+        <div class="carousel-item item">
           <div class="middle">
             {% if picture.title %}
               <img src="{{ picture.url }}" alt="{{ picture.title }}">
