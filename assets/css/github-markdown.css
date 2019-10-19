@@ -544,7 +544,7 @@ li p:nth-child(2) {
   margin-top: 16px;
 }
 
-.markdown-body li+li {
+.markdown-body li+li :not(.active) {
   margin-top: 0.25em;
 }
 
