@@ -1,23 +1,20 @@
-body {
-  background-color: black;
+.carousel {
+  width: 500px;
+  height: 400px;
 }
 
-.carousel-inner > .item {
-  height: 100vh;
+.middle {
+  position: relative;
+  height: 400px;
 }
 
-.carousel-inner > .item > img {
+.middle img {
+  max-width: 100%;
+  max-height:100%;
+  margin: auto;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  max-height: 800px;
-  width: auto;
-}
-
-.carousel-control.left,
-.carousel-control.right {
-  background-image: none;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
