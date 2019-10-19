@@ -15,29 +15,33 @@
     {% for picture in include.data %}
       {% if forloop.first == true %}
         <div class="item active">
-          {% if picture.title %}
-            <img src="{{ picture.url }}" alt="{{ picture.title }}">
-          {% else %}
-            <img src="{{ picture.url }}">
-          {% endif %}
-          {% if picture.caption %}
-            <div class="carousel-caption">
-              {{ picture.caption }}
-            </div>
-          {% endif %}
+          <div class="middle">
+            {% if picture.title %}
+              <img src="{{ picture.url }}" alt="{{ picture.title }}">
+            {% else %}
+              <img src="{{ picture.url }}">
+            {% endif %}
+            {% if picture.caption %}
+              <div class="carousel-caption">
+                {{ picture.caption }}
+              </div>
+            {% endif %}
+          </div>  
         </div>
       {% else %}
         <div class="item">
-          {% if picture.title %}
-            <img src="{{ picture.url }}" alt="{{ picture.title }}">
-          {% else %}
-            <img src="{{ picture.url }}">
-          {% endif %}
-          {% if picture.caption %}
-            <div class="carousel-caption">
-              {{ picture.caption }}
-            </div>
-          {% endif %}
+          <div class="middle">
+            {% if picture.title %}
+              <img src="{{ picture.url }}" alt="{{ picture.title }}">
+            {% else %}
+              <img src="{{ picture.url }}">
+            {% endif %}
+            {% if picture.caption %}
+              <div class="carousel-caption">
+                {{ picture.caption }}
+              </div>
+            {% endif %}
+           </div>
         </div>
       {% endif %}
     {% endfor %}
