@@ -4,15 +4,6 @@ title: 'The Creature with Magical Ballsack'
 date: 2019-09-15
 author: Khun
 cover: '/assets/img/tanuki/namazu_hyotan_kintama.jpg'
-image_sliders:
-  - slider_01_odd_statues
-  - slider_02_semi_mythical_creature
-  - slider_03_tanuki_legends
-  - slider_04_tanuki_statues
-  - slider_05_tanuki_eight_traits
-  - slider_06_magical_ball_sack
-  - slider_07_real_tanuki
-  - slider_08_popular_culture
 tags: travel tanuki Japan
 ---
 
@@ -26,7 +17,7 @@ During my trip to Japan, I noticed there are a lot of statues of this peculiar c
 
 ### So What are These Mysterious Creature?
 
-{% include carousel.html name="Example" data=site.data.tanuki %}
+{% include carousel.html name="Example" data=site.data.carousel.slider_01_odd_statues %}
 
 “What are these creatures?” I asked myself when I first saw it. But I was quickly distracted by other things. While I was scrolling through the pictures back in Malaysia, I noticed these odd statues again, so I decided to find out the mystery behind these statues. It was difficult to Google something without knowing its name, but alas, I typed in “Kameoka Station statue” and out comes the answer.
 
