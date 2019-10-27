@@ -17,7 +17,7 @@ During my trip to Japan, I noticed there are a lot of statues of this peculiar c
 
 ### So What are These Mysterious Creature?
 
-{% include carousel.html name="slider_01_odd_statues" data=site.data.carousel["tanuki"].slider_01_odd_statues %}
+{% include carousel.html name="slider_01_odd_statues" data=site.data.carousel.tanuki.slider_01_odd_statues %}
 
 “What are these creatures?” I asked myself when I first saw it. But I was quickly distracted by other things. While I was scrolling through the pictures back in Malaysia, I noticed these odd statues again, so I decided to find out the mystery behind these statues. It was difficult to Google something without knowing its name, but alas, I typed in “Kameoka Station statue” and out comes the answer.
 
