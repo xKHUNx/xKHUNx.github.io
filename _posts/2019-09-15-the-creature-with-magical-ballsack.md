@@ -11,19 +11,17 @@ If you ever visit Japan, watch out for these creatures. They can shapeshift into
 
 ### The Odd Statues in Kyoto
 
-{% include slider.html selector="slider_01_odd_statues" %}
+{% include carousel.html name="slider_01_odd_statues" data=site.data.carousel.tanuki.slider_01_odd_statues %}
 
 During my trip to Japan, I noticed there are a lot of statues of this peculiar creature all around Kyoto. I saw one just outside of my Airbnb my homestay, guarding the house like a gnome, and also at a bunch of it, in various sizes at a train station in Kameoka. It looks like some sort of owl-headed bear, with a big fat belly, wearing a farmer hat. I didn’t notice at the time, but they had another prominent feature, BIG BALLSACKS! More on that later.
 
 ### So What are These Mysterious Creature?
 
-{% include carousel.html name="slider_01_odd_statues" data=site.data.carousel.tanuki.slider_01_odd_statues %}
-
 “What are these creatures?” I asked myself when I first saw it. But I was quickly distracted by other things. While I was scrolling through the pictures back in Malaysia, I noticed these odd statues again, so I decided to find out the mystery behind these statues. It was difficult to Google something without knowing its name, but alas, I typed in “Kameoka Station statue” and out comes the answer.
 
 ### Tanuki - A Semi-Mythical Creature
 
-{% include slider.html selector="slider_02_semi_mythical_creature" %}
+{% include carousel.html name="slider_02_semi_mythical_creature" data=site.data.carousel.tanuki.slider_02_semi_mythical_creature %}
 
 The creatures I saw are called tanuki (たぬき) in Japan, or Japanese Raccoon Dog in English, and 貉 or sometimes 狸猫 in Mandarin. It is featured prominently in Japanese folktales and legends. Tanuki or more accurately bake-danuki (化け狸) (roughly translate to shapeshifting tanuki) has shapeshifting ability, and they like to trick people by changing into people and various objects. It is considered a yokai 妖怪 (supernatural creatures), along with the likes of kappa and tengu. 
 
@@ -33,7 +31,7 @@ Tanuki often uses leaves as a tool to assist them in their trickery. Tanuki will
 
 ### Tanuki Legends
 
-{% include slider.html selector="slider_03_tanuki_legends" %}
+{% include carousel.html name="slider_03_tanuki_legends" data=site.data.carousel.tanuki.slider_03_tanuki_legends %}
 
 Now that you’re acquainted with a tanuki, it's time for some tales about tanuki. There are many folktales and legends about tanuki, ranging from creepy ones, funny ones and ones with a moral lesson. 
 
@@ -46,7 +44,7 @@ Other tales include a story of tanuki shapeshifting into a kettle, challenge eac
 
 ### Origin of the Tanuki Statues
 
-{% include slider.html selector="slider_04_tanuki_statues" %}
+{% include carousel.html name="slider_04_tanuki_statues" data=site.data.carousel.tanuki.slider_04_tanuki_statues %}
 
 With tanuki's reputation as a trickster in Japanese folklore, why did they get made into a statue that acre popular across Japan? And why did they look different from their classic depiction in the legends?
 
@@ -63,7 +61,7 @@ It is common to see some these statues in front of business establishments prima
 
 ### The Eight Traits of a Tanuki Statue
 
-{% include slider.html selector="slider_05_tanuki_eight_traits" %}
+{% include carousel.html name="slider_05_tanuki_eight_traits" data=site.data.carousel.tanuki.slider_05_tanuki_eight_traits %}
 
 The tanuki statues are often depicted with these eight traits, symbolizing its eight virtues:
 
@@ -80,7 +78,7 @@ There is also a traditional interpretation of these eight traits, which I won’
  
 ### Tanuki and Their Magical Ballsack
 
-{% include slider.html selector="slider_06_magical_ball_sack" %}
+{% include carousel.html name="slider_06_magical_ball_sack" data=site.data.carousel.tanuki.slider_06_magical_ball_sack %}
 
  Now we have reached the most anticipated section, to show you the magical ballsack of tanuki, and explain how and why the legend came to be. 
 
@@ -94,7 +92,7 @@ The legend of tanuki’s gigantic and malleable ballsack begins in the Kanazawa 
 
 ### The Real Tanuki
 
-{% include slider.html selector="slider_07_real_tanuki" %}
+{% include carousel.html name="slider_07_real_tanuki" data=site.data.carousel.tanuki.slider_07_real_tanuki %}
 
 So how is a tanuki like in real life? Tanuki is known as Japanese raccoon dog, but don't let the name fool you, it is closer to a fox than a dog or a raccoon. However, they share the common trait of being a member of the canine family.
 
@@ -110,7 +108,7 @@ Here is a [video](https://www.youtube.com/watch?v=W1zuPnEzA-o) of Aichan, a pet 
 
 ### Tanuki in Popular Culture
 
-{% include slider.html selector="slider_08_popular_culture" %}
+{% include carousel.html name="slider_08_popular_culture" data=site.data.carousel.tanuki.slider_08_popular_culture %}
 
 Being such a popular animal in Japan, it’s not hard to find tanuki in popular culture. Ghibli Studio’s Pom Poko, which is produced by Hayao Miyazaki is a movie that is centered around a group of tanuki, and their struggle to survive in the modern world as mankind expands into their territory for modern development. In one scene, a group of tanukis even attack humans with their magical ballsack.  Watching the movie is a great way to learn about tanuki in Japanese folktales and culture in general. I will definitely recommend anyone to watch it. Though be warned, there are a lot of tanuki testicles in the movie.
 
