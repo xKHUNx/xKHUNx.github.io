@@ -20,17 +20,17 @@
               <img src="{{ picture.url }}">
             {% endif %}
             {% if picture.caption and picture.title %}
-              <div class="carousel-caption">
-                <h5>{{ picture.title }}</h5>
-                <p>{{ picture.caption }}</p>
+              <div class="carousel-caption iis-caption">
+                <div class="iis-caption-title">{{ picture.title }}</div>
+                <div class="iis-caption-content">{{ picture.caption }}</div>
               </div>
             {% elsif picture.title %}
               <div class="carousel-caption">
-                <h5>{{ picture.title }}</h5>
+                <div class="iis-caption-title">{{ picture.title }}</div>
               </div>
             {% elsif picture.caption %}
-              <div class="carousel-caption">
-                <p>{{ picture.caption }}</p>
+              <div class="carousel-caption iis-caption">
+                <div class="iis-caption-content">{{ picture.caption }}</div>
               </div>
             {% endif %}
           </div>  
@@ -44,17 +44,17 @@
               <img src="{{ picture.url }}">
             {% endif %}
             {% if picture.caption and picture.title %}
-              <div class="carousel-caption">
-                <h5>{{ picture.title }}</h5>
-                <p>{{ picture.caption }}</p>
+              <div class="carousel-caption iis-caption">
+                <div class="iis-caption-title">{{ picture.title }}</div>
+                <div class="iis-caption-content">{{ picture.caption }}</div>
               </div>
             {% elsif picture.title %}
               <div class="carousel-caption">
-                <h5>{{ picture.title }}</h5>
+                <div class="iis-caption-title">{{ picture.title }}</div>
               </div>
             {% elsif picture.caption %}
-              <div class="carousel-caption">
-                <p>{{ picture.caption }}</p>
+              <div class="carousel-caption iis-caption">
+                <div class="iis-caption-content">{{ picture.caption }}</div>
               </div>
             {% endif %}
            </div>
