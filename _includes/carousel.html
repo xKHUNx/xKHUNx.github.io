@@ -38,6 +38,11 @@
       {% else %}
         <div class="carousel-item item">
           <div class="middle">
+            {% if picture.title %}
+              <img src="{{ picture.url }}" alt="{{ picture.title }}">
+            {% else %}
+              <img src="{{ picture.url }}">
+            {% endif %}
             {% if picture.caption and picture.title %}
               <div class="carousel-caption">
                 <h5>{{ picture.title }}</h5>
