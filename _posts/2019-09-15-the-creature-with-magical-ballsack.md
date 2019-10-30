@@ -135,7 +135,7 @@ What started as my curiosity turns into a cultural lesson for me and this post t
 ### Read More
 
 ![cute-tanuki](/assets/img/tanuki/tanuki.png)
-*Ok, here's cute one.*
+*Ok, here's a cute one.*
 
 I’ve tried to cover as much tanuki facts as possible, especially its role in Japanese culture. I may have left out some details and if you want to learn more, you can go through the source material I’ve listed below. [Onmark Productions](http://www.onmarkproductions.com/html/tanuki.shtml) deserves a special mention for the amount of detailed information provided.
 
