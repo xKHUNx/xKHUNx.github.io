@@ -139,28 +139,28 @@ What started as my curiosity turns into a cultural lesson for me and this post t
 
 I’ve tried to cover as much tanuki facts as possible, especially its role in Japanese culture. I may have left out some details and if you want to learn more, you can go through the source material I’ve listed below. [Onmark Productions](http://www.onmarkproductions.com/html/tanuki.shtml) deserves a special mention for the amount of detailed information provided.
 
-- (http://www.onmarkproductions.com/html/tanuki.shtml)
-- (https://baike.baidu.com/item/%E7%8B%B8/18397639)
-- (https://en.wikipedia.org/wiki/Japanese_raccoon_dog#In_popular_culture)
-- (https://www.zhihu.com/question/54530226/answer/522369670)
-- (https://ja.wikipedia.org/wiki/%E5%8C%96%E3%81%91%E7%8B%B8)
-- (https://zh.wikipedia.org/wiki/%E5%8C%96%E7%8B%B8)
-- (https://www.tokyocreative.com/articles/20140-tanuki-real-and-magical)
-- (http://lifeinjapanjason.blogspot.com/2011/07/tanuki-in-japanese-culture.html)
-- (https://www.pinterest.com/pin/177540410295389229/)
-- (https://minwa.fujipan.co.jp/area/kumamoto_001/)
-- (https://io9.gizmodo.com/the-animal-with-the-most-legendary-testicles-in-the-wor-1694222408)
-- (https://www.tokyocreative.com/sights/6471-shigaraki-tanuki-village)
-- (http://loveartlab.me/2015/05/20/the-raccoon-dog-ornament-is-a-lucky-charm/)
-- (https://nirc.nanzan-u.ac.jp/nfile/1404)
-- (http://gakkenmu.jp/column/8813/)
-- (https://okab.exblog.jp/26997452)
-- (http://shop.shigaraki-labo.co.jp/html/page3.html)
-- (https://www.atlasobscura.com/articles/the-tanuki-japan-s-trickster-god)
-- (https://traditionalkyoto.com/culture/figures/badgers/)
-- (https://en.wikipedia.org/wiki/Shigaraki_ware)
-- (https://zhuanlan.zhihu.com/p/27522927)
-- (https://omamorifromjapan.blogspot.com/2011/11/hikoichi-from-kumamoto.html)
-- (https://folklorethursday.com/legends/tanuki-mischief-magic-and-change-in-the-japanese-countryside/ )
-- (https://animals.net/tanuki/)
-- (http://kuniyoshiproject.com/raccoon%20Dogs%20(R209).htm)
+- <a>http://www.onmarkproductions.com/html/tanuki.shtml</a>
+- <a>https://baike.baidu.com/item/%E7%8B%B8/18397639</a>
+- <a>https://en.wikipedia.org/wiki/Japanese_raccoon_dog#In_popular_culture</a>
+- <a>https://www.zhihu.com/question/54530226/answer/522369670</a>
+- <a>https://ja.wikipedia.org/wiki/%E5%8C%96%E3%81%91%E7%8B%B8</a>
+- <a>https://zh.wikipedia.org/wiki/%E5%8C%96%E7%8B%B8</a>
+- <a>https://www.tokyocreative.com/articles/20140-tanuki-real-and-magical</a>
+- <a>http://lifeinjapanjason.blogspot.com/2011/07/tanuki-in-japanese-culture.html</a>
+- <a>https://www.pinterest.com/pin/177540410295389229/</a>
+- <a>https://minwa.fujipan.co.jp/area/kumamoto_001/</a>
+- <a>https://io9.gizmodo.com/the-animal-with-the-most-legendary-testicles-in-the-wor-1694222408</a>
+- <a>https://www.tokyocreative.com/sights/6471-shigaraki-tanuki-village</a>
+- <a>http://loveartlab.me/2015/05/20/the-raccoon-dog-ornament-is-a-lucky-charm/</a>
+- <a>https://nirc.nanzan-u.ac.jp/nfile/1404</a>
+- <a>http://gakkenmu.jp/column/8813/</a>
+- <a>https://okab.exblog.jp/26997452</a>
+- <a>http://shop.shigaraki-labo.co.jp/html/page3.html</a>
+- <a>https://www.atlasobscura.com/articles/the-tanuki-japan-s-trickster-god</a>
+- <a>https://traditionalkyoto.com/culture/figures/badgers/</a>
+- <a>https://en.wikipedia.org/wiki/Shigaraki_ware</a>
+- <a>https://zhuanlan.zhihu.com/p/27522927</a>
+- <a>https://omamorifromjapan.blogspot.com/2011/11/hikoichi-from-kumamoto.html</a>
+- <a>https://folklorethursday.com/legends/tanuki-mischief-magic-and-change-in-the-japanese-countryside/ </a>
+- <a>https://animals.net/tanuki/</a>
+- <a>http://kuniyoshiproject.com/raccoon%20Dogs%20(R209).htm</a>
