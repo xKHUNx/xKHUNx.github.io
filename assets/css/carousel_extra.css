@@ -22,3 +22,8 @@
 ol.carousel-indicators {
     bottom: -20px;
 }
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
