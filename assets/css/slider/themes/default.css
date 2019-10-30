@@ -88,7 +88,7 @@
 /* Captions */
 .iis-has-captions .iis-slide { text-indent: 0; }
 .iis-caption {
-	position: absolute;
+	position: sticky;
 	left: 5%;
 	bottom: 5%;
 	max-width: 90%;
