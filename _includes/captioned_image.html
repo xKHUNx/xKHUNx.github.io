@@ -1,0 +1,20 @@
+<!-- _includes/captioned_image.html -->
+<!-- Source: https://stackoverflow.com/a/19360305/10281627 -->
+<figure>
+    {% if include.url %}
+    <a href="{{ include.url }}">
+    {% endif %}
+    <img
+        {% if include.srcabs %}
+            src="{{ include.srcabs }}"
+        {% else %}
+            src="{{ site.baseurl }}/assets/img/{{ include.src }}"
+        {% endif %}
+    alt="{{ include.alt }}">
+    {% if include.url %}
+    </a>
+    {% endif %}
+    {% if include.caption %}
+        <figcaption>{{ include.caption }}</figcaption>
+    {% endif %}
+</figure>

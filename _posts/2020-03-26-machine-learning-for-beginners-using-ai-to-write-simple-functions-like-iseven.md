@@ -3,27 +3,31 @@ layout: post
 title: 'Machine Learning for beginners: Using AI to write simple functions like isEven()'
 date: 2020-03-26
 author: Khun
-cover: ''
+cover: '/assets/img/iseven_with_ml/bigbrain_cover.png'
 tags: machine learning AI data science tutorial beginner funny meme
 ---
 
-If you wanted to learn some basic machine learning, or you just wanted to find a fancy new way to write the `isEven()` function, you've come to the right place! In this article, I will show you how to leverage on "big data", "A.I." and "machine learning" to write your own `isEven()` function. (LOL)
+If you wanted to learn some basic machine learning, or you just wanted to find a fancy new way to write the **isEven()** function, you've come to the right place! In this article, I will show you how to leverage on "big data", "A.I." and "machine learning" to write your own **isEven()** function. (LOL)
 
 ## Introduction
-In this article, you will learn how to code and build a simple machine learning pipeline using scikit-learn libraries in Python. For those that are familliar with machine learning, this article provide you a fun (but dumb) way to write the famous `isEven()` function.
+In this article, you will learn how to code and build a simple machine learning pipeline using scikit-learn libraries in Python. For those that are familliar with machine learning, this article provide you a fun (but dumb) way to write the famous **isEven()** function.
 
 ## Prerequisite
-- Installed either [Anaconda](https://www.anaconda.com/distribution/) (recommended) or [Miniconda].(https://docs.conda.io/en/latest/miniconda.html)
+- Installed either [Anaconda](https://www.anaconda.com/distribution/) (recommended) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 - Having basic Python or coding knowledge in general. (OPTIONAL)
 
 ## Problem Statement
-We want to write a function,`isEven()` that can tell whether a given number is an even number, or an odd number. The function will return `True`, if an even number is provided, else, it will return `False`.
+We want to write a function, **isEven()** that can tell whether a given number is an even number, or an odd number. The function will return **True**, if an even number is provided, else, it will return **False**.
 
 In this article, we will tackle this problem by utilizing the power of machine learning and data. We will build a machine learning model that **classify a number as either even or odd**. This is known as a **classifier**, a machine learning model that performs **classification**.
 
-<!-- - img 1 = <img src="img/isEven_1.jpg"> -->
-Source: https://www.facebook.com/PoorlyIndented/photos/a.133750464674568/213901103326170/
-- img 2 = 
+
+{% include captioned_image.html
+    src="iseven_with_ml/isEven_1.jpg" 
+    alt="training example"
+    caption="Fancy methods to write isEven(). From <a href='https://www.facebook.com/PoorlyIndented/photos/a.133750464674568/213901103326170/'>Facebook</a>."
+%}
+
 
 # Disclaimer
 While there are many ways to tackle this problem: some of them are creative, some of them are more efficient than the other. Essentially, there are many better way to do this than what this article will teach you. In fact, in reality you wouldn't wanted to use machine learning to tackle simple and well defined problem like this. This tutorial will serve as your springboard to dive into solving more complex problem with machine learning in the future.
@@ -31,36 +35,37 @@ While there are many ways to tackle this problem: some of them are creative, som
 # Some concepts and terminologies
 ### Traditional Programming vs Machine Learning
 Unlike traditional programming, instead of coding the program to classify it for us, we train an algorithm the data and expectd output, and the algorithm give us the program.
-<div>
-    <img src="img/traditional_vs_ML.png" width="40%"/>
-</div>
-Traditional Programming vs Machine Learning
+
+
+
+{% include captioned_image.html
+    src="iseven_with_ml/traditional_vs_ML.png" 
+    alt="traditional-vs-ml" 
+    caption="Traditional Programming vs Machine Learning." 
+%}
 
 In the context of machine learning, this terms had this meaning:
 - **Features**: The input data
 - **Label**: The expected output
 - **Model**: The program generated
 - **Training**: Makes the model learn to predict the label, from the features.
-<div>
-    <img src="img/training.png" width="50%"/>
-</div>
+![training](/assets/img/iseven_with_ml/training.png)
 - **Inference**: Use a learned model to predict unseen data.
-<div>
-    <img src="img/inference.png" width="50%"/>
-</div>
+![inference](/assets/img/iseven_with_ml/inference.png)
 
 # Our Solution
 We will build a classifier to classify whether a number is even or odd. In our case, our training and inference process would look like this:
 - **Training**: We will use a `RandomForestClassifier` algorithm to train a new classifier, by feeding it with our features (integer), and their corresponding label (even or odd).
-<div>
-    <img src="img/example_training.png" width="50%"/>
-</div>
+{% include captioned_image.html
+    src="iseven_with_ml/example_training.png" 
+    alt="training example" 
+%}
 
 - **Inference**: We will use trained classifier to predict a number as either odd or even!
-<div>
-    <img src="img/example_inference.png" width="50%"/>
-</div>
-
+{% include captioned_image.html
+    src="iseven_with_ml/example_inference.png" 
+    alt="inference example" 
+%}
 
 ## Coding time!
 ### 1. Launch Jupyter Notebook, see [here](https://jupyter.readthedocs.io/en/latest/install.html#installing-jupyter-using-anaconda-and-conda) to learn to install it.
@@ -70,14 +75,9 @@ We will build a classifier to classify whether a number is even or odd. In our c
 ### 4. Import libraries
 This code will import all the neccessary libraries for the following tutorial. These libraries will be our tools that will aids us in our quest to building a machine learning model.
 
-
-```python
-import numpy as np
+{% capture code %}import numpy as np
 import pandas as pd
-from sklearn.svm import SVC
-from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.pipeline import Pipeline
@@ -95,12 +95,8 @@ import warnings
 os.environ['PATH'] = os.environ['PATH']+';'+os.environ['CONDA_PREFIX']+r"\Library\bin\graphviz" 
 
 # Supress all warnings
-warnings.filterwarnings("ignore")
-```
-
-    c:\users\acer\miniconda3\envs\automl\lib\site-packages\sklearn\externals\six.py:31: DeprecationWarning: The module is deprecated in version 0.21 and will be removed in version 0.23 since we've dropped support for Python 2.7. Please rely on the official version of six (https://pypi.org/project/six/).
-      "(https://pypi.org/project/six/).", DeprecationWarning)
-    
+warnings.filterwarnings("ignore"){% endcapture %}
+{% include code.html code=code lang="python" %}
 
 ### 5. Getting the dataset
 Before we can train a machine learning model, we need to prepare the data for the training. In our case, we just have to generate the data, as we already know that. In reality, we need to collect the data ourselve, or get publicly available data.
@@ -114,7 +110,7 @@ We will generate our data and put into a `DataFrame` like this:
 df = pd.DataFrame(
     data={
         "number": range(100), # List of integers from 0 to 99 (100 integers)
-        "label": ["Even", "Odd"]*50 # Alternating between Even and Odd for 50 times (50*2=100 integers)
+        "label": ["Even", "Odd"]*50 # Alternating between Even and Odd for 50 times
     }
 )
 ```
@@ -596,9 +592,10 @@ pipe = Pipeline(
 ```
 
 Our pipeline now looks like this:
-<div>
-    <img src="img/pipeline_01.png" width="50%"/>
-</div>
+{% include captioned_image.html
+    src="iseven_with_ml/pipeline_01.png" 
+    alt="machine learning pipeline with feature engineering" 
+%}
 
 
 ```python
@@ -805,16 +802,22 @@ for tree_in_forest in pipe.get_params()['classifier'].estimators_:
 ```
 
 
-![png](output_37_0.png)
+{% include captioned_image.html
+    src="iseven_with_ml/output/output_37_0.png" 
+    alt="tree 1" 
+%}
 
 
+{% include captioned_image.html
+    src="iseven_with_ml/output/output_37_1.png" 
+    alt="tree 2" 
+%}
 
-![png](output_37_1.png)
 
-
-
-![png](output_37_2.png)
-
+{% include captioned_image.html
+    src="iseven_with_ml/output/output_37_2.png" 
+    alt="tree 3" 
+%}
 
 As you can see the trees plotted above, they're uncessary complex and some irrelevant features are used.
 
@@ -1033,9 +1036,10 @@ pipe = Pipeline(
 ```
 
 Our pipeline now looks like this:
-<div>
-    <img src="img/pipeline_02.png" width="50%"/>
-</div>
+{% include captioned_image.html
+    src="iseven_with_ml/pipeline_02.png" 
+    alt="machine learning pipeline with feature engineering and feature selection" 
+%}
 
 
 ```python
@@ -1175,16 +1179,22 @@ for tree_in_forest in pipe.get_params()['classifier'].estimators_:
     display.display(Image(graph.create_png()))
 ```
 
-
-![png](output_52_0.png)
-
-
-
-![png](output_52_1.png)
+{% include captioned_image.html
+    src="iseven_with_ml/output/output_52_0.png" 
+    alt="tree 4" 
+%}
 
 
+{% include captioned_image.html
+    src="iseven_with_ml/output/output_52_1.png" 
+    alt="tree 5" 
+%}
 
-![png](output_52_2.png)
+
+{% include captioned_image.html
+    src="iseven_with_ml/output/output_52_2.png" 
+    alt="tree 6" 
+%}
 
 
 All of the trees now only considers one features and the irrelevant features are ignored!
