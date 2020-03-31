@@ -839,7 +839,7 @@ figcaption {
 .markdown-body kbd,
 .markdown-body pre {
   font-family: monospace, monospace;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .markdown-body hr {
@@ -1276,9 +1276,13 @@ li p:nth-child(2) {
   border-bottom-color: #eee;
 }
 
+/* Captioned Image */
+
 figcaption {
   text-align: center;
 }
+
+/* Code Copy */
 
 .copy-code-button {
   align-items: center;
@@ -1286,25 +1290,71 @@ figcaption {
   display: flex;
   padding-left: 6px;
   padding-right: 6px;
+}
 
-  &::before {
-    content: "Copy";
-  }
+.copy-code-button::before {
+  content: "Copy";
+}
 
-  &::after {
-    margin-left: 4px;
-    content: "📋";
-    width: 1em;
-  }
+.copy-code-button::after {
+  margin-left: 4px;
+  content: "📋";
+  width: 1em;
+}
 
-  // This class will be toggled via JavaScript
-  &.copied {
-    &::before {
-      content: "Copied!";
-    }
+.copy-code-button.copied::before {
+  content: "Copied!";
+}
 
-    &::after {
-      content: "✔️";
-    }
-  }
+.copy-code-button.copied::after {
+  content: "✔️";
+}
+
+.code-header .copy-code-container {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#post .code-header+.highlighter-rouge {
+    margin-top: 0;
+}
+
+.code-header {
+  color: #bcbcbc;
+  display: flex;
+  background-color: #3b3b3b;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0 3px 3px 0px rgba(0,0,0,0.3);
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 12px 20px;
+  margin-bottom: calc(-1 * calc(1em + 0.5vw) + -1px);
+  margin-top: 0.5em;
+  z-index: 2;
+}
+
+.markdown-body .highlight {
+    margin: 9px 0 5px 0 !important;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 0.875em;
+    height: 0.875em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #858585;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #494949;
+}
+
+::selection {
+    background-color: var(--selection-bg-color);
+    color: black;
 }
