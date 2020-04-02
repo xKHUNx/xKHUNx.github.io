@@ -101,29 +101,23 @@ warnings.filterwarnings("ignore"){% endcapture %}
 ### 5. Getting the dataset
 Before we can train a machine learning model, we need to prepare the data for the training. In our case, we just have to generate the data, as we already know that. In reality, we need to collect the data ourselve, or get publicly available data.
 
-We will generate our data and put into a `DataFrame` like this:
+We will generate our data and put into a data frame like this:
 - **Feature:** The integer
 - **Label:** Even or Odd
 
-
-```python
-df = pd.DataFrame(
+{% capture code %}df = pd.DataFrame(
     data={
-        "number": range(100), # List of integers from 0 to 99 (100 integers)
-        "label": ["Even", "Odd"]*50 # Alternating between Even and Odd for 50 times
+        # List of integers from 0 to 99 (100 integers) 
+        'number': range(100), 
+        # Alternating between Even and Odd for 50 times
+        "label": ["Even", "Odd"] * 5  0
     }
 )
-```
-
-The generated `DataFrame` looks like these:
-
-
-```python
-df
-```
+df{% endcapture %}
+{% include code.html code=code lang="python" %}
 
 
-
+The generated data frame looks like these:
 
 <div>
 <style scoped>
@@ -213,11 +207,8 @@ df
 We can inspect the first 5 columns using the `head()` function.
 
 
-```python
-df.head()
-```
-
-
+{% capture code %} df.head() {% endcapture %}
+{% include code.html code=code lang="python" %}
 
 
 <div>
@@ -276,18 +267,14 @@ df.head()
 
 ### 6. Getting X and y
 In the context of machine learning, we usually denote:
-- `X` : Features
-- `y` : Label
+- **X** : Features
+- **y** : Label
 
 
-```python
-# Create X
+{% capture code %} # Create X
 X = df.drop(['label'], axis=1)
-X.head()
-```
-
-
-
+X.head() {% endcapture %}
+{% include code.html code=code lang="python" %}
 
 <div>
 <style scoped>
@@ -336,24 +323,19 @@ X.head()
 </div>
 
 
-
-
-```python
-# Create y
+{% capture code %} # Create y
 y = df['label']
-y.head()
+y.head() {% endcapture %}
+{% include code.html code=code lang="python" %}
+
 ```
-
-
-
-
-    0    Even
-    1     Odd
-    2    Even
-    3     Odd
-    4    Even
-    Name: label, dtype: object
-
+0    Even
+1     Odd
+2    Even
+3     Odd
+4    Even
+Name: label, dtype: object
+```
 
 
 ### 7. Splitting the data
@@ -378,9 +360,9 @@ After splitting,  we will have 4 groups of data:
 Some of you might notice that we had set `random_state=77`. This is to ensure the split is always consistent in this tutorial, in reality, you will not want to set the random state.
 
 
-```python
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30, random_state=77) # Fix random state to get consistent result
-```
+{% capture code %}X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30, random_state=77) 
+# Fix random state to get consistent result{% endcapture %}
+{% include code.html code=code lang="python" %}
 
 ### 8. Training Attempt #1 - RandomForestClassifier
 After splitting the data we are now ready to train a model. We will first attempt to train a `RandomForestClassifier`. A random forest is basically made up of multiple decision trees. More on that later.
@@ -388,32 +370,30 @@ After splitting the data we are now ready to train a model. We will first attemp
 We will create a random forest with 3 trees by setting `n_estimators=3`. After initializing our model, we can now train the model by calling `fit()`.
 
 
-```python
-# Initialize the classifier
+{% capture code %}# Initialize the classifier
 classifier = RandomForestClassifier(n_estimators=3, random_state=7)
 
 # Fit the model with our train set (training the model)
-classifier.fit(X_train, y_train)
+classifier.fit(X_train, y_train){% endcapture %}
+{% include code.html code=code lang="python" %}
+
+
+
 ```
-
-
-
-
-    RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
-                           max_depth=None, max_features='auto', max_leaf_nodes=None,
-                           min_impurity_decrease=0.0, min_impurity_split=None,
-                           min_samples_leaf=1, min_samples_split=2,
-                           min_weight_fraction_leaf=0.0, n_estimators=3,
-                           n_jobs=None, oob_score=False, random_state=7, verbose=0,
-                           warm_start=False)
-
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=3,
+                       n_jobs=None, oob_score=False, random_state=7, verbose=0,
+                       warm_start=False)
+```
 
 
 After training, now we will check the performance of our model, by inferencing/predicting on the test set we prepared earlier.
 
 
-```python
-# Predict on our test set
+{% capture code %}# Predict on our test set
 y_pred = classifier.predict(X_test)
 
 # Visualize some of the prediction
@@ -423,11 +403,8 @@ pd.DataFrame(
         "predicted_label": y_pred,
         "true_label": y_test
     }
-).head()
-```
-
-
-
+).head(){% endcapture %}
+{% include code.html code=code lang="python" %}
 
 <div>
 <style scoped>
@@ -492,15 +469,12 @@ pd.DataFrame(
 As we can see, the classifier managed to get most of the prediction wrong. Let's quantify the performance of our classifier by checking the accuracy.
 
 
-```python
-accuracy_score(y_test, y_pred)
+{% capture code %}accuracy_score(y_test, y_pred){% endcapture %}
+{% include code.html code=code lang="python" %}
+
 ```
-
-
-
-
-    0.23333333333333334
-
+0.23333333333333334
+```
 
 
 Our classifier managed to score an accuracy of 23% only! This is worst than randomly guessing, which will result in 50% accuracy on average!
@@ -525,8 +499,7 @@ As an illustration:
 For decimal number from 0 to 99, we are able to represent it with 7 digit in the binary system, by keeping the leading zeroes. Each of these 7 digits can be see as a new feature! I have written a [scikit-learn transformer](https://scikit-learn.org/stable/modules/generated/sklearn.base.TransformerMixin.html), the `BinaryEncoder` to transform our data automatically from decimals to a 7 digit binary number, and then into 7 columns dataframe.
 
 
-```python
-class BinaryEncoder(TransformerMixin):
+{% capture code %}class BinaryEncoder(TransformerMixin):
     def __init__(self, n=8):
         # Minimumn number of digits to use
         self.n = n
@@ -557,39 +530,34 @@ class BinaryEncoder(TransformerMixin):
             # Add to new_rows
             new_rows.append([int(digit) for digit in binary])
         # Return as numpy.ndarray
-        return np.array(new_rows)
-```
+        return np.array(new_rows){% endcapture %}
+{% include code.html code=code lang="python" %}
 
 As an example, we can do this:
 
-
-```python
-be = BinaryEncoder(n=7)
+{% capture code %}be = BinaryEncoder(n=7)
 bin = be.fit_transform([[0], [8], [99]])
-bin
+bin{% endcapture %}
+{% include code.html code=code lang="python" %}
+
 ```
-
-
-
-
-    array([[0, 0, 0, 0, 0, 0, 0],
-           [0, 0, 0, 1, 0, 0, 0],
-           [1, 1, 0, 0, 0, 1, 1]])
-
+array([[0, 0, 0, 0, 0, 0, 0],
+       [0, 0, 0, 1, 0, 0, 0],
+       [1, 1, 0, 0, 0, 1, 1]])
+```
 
 
 We can now chain the `BinaryEncoder` with our `RandomForestClassifier` inside a [pipeline](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html) to make the training process smoother. The pipeline will automatically pass the data through each pipeline component (transformer) and finally train the model at the end of the pipeline. Pipeline allow us skip having to manually call `fit_transform()` for all the transformers in the pipeline.
 
 
-```python
-# Create a pipline that chains BinaryEncoder and RandomForestClassifier
+{% capture code %}# Create a pipline that chains BinaryEncoder and RandomForestClassifier
 pipe = Pipeline(
     steps=[
         ('binary_encoder', BinaryEncoder(n=7)), # fit_transform() will be called automatically 
         ('classifier', RandomForestClassifier(n_estimators=3, random_state=7)) # Model must be at the end of the pipe
     ]
-)
-```
+){% endcapture %}
+{% include code.html code=code lang="python" %}
 
 Our pipeline now looks like this:
 {% include captioned_image.html
@@ -598,38 +566,32 @@ Our pipeline now looks like this:
 %}
 
 
-```python
-# Fits the data through pipeline
-pipe.fit(X_train, y_train)
+{% capture code %}# Fits the data through pipeline
+pipe.fit(X_train, y_train){% endcapture %}
+{% include code.html code=code lang="python" %}
+
 ```
-
-
-
-
-    Pipeline(memory=None,
-             steps=[('binary_encoder',
-                     <__main__.BinaryEncoder object at 0x000002976682C6C8>),
-                    ('classifier',
-                     RandomForestClassifier(bootstrap=True, class_weight=None,
-                                            criterion='gini', max_depth=None,
-                                            max_features='auto',
-                                            max_leaf_nodes=None,
-                                            min_impurity_decrease=0.0,
-                                            min_impurity_split=None,
-                                            min_samples_leaf=1, min_samples_split=2,
-                                            min_weight_fraction_leaf=0.0,
-                                            n_estimators=3, n_jobs=None,
-                                            oob_score=False, random_state=7,
-                                            verbose=0, warm_start=False))],
-             verbose=False)
-
-
+Pipeline(memory=None,
+         steps=[('binary_encoder',
+                 <__main__.BinaryEncoder object at 0x000002976682C6C8>),
+                ('classifier',
+                 RandomForestClassifier(bootstrap=True, class_weight=None,
+                                        criterion='gini', max_depth=None,
+                                        max_features='auto',
+                                        max_leaf_nodes=None,
+                                        min_impurity_decrease=0.0,
+                                        min_impurity_split=None,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        n_estimators=3, n_jobs=None,
+                                        oob_score=False, random_state=7,
+                                        verbose=0, warm_start=False))],
+         verbose=False)
+```
 
 Let's check the model's performance after we perform feature engineering.
 
-
-```python
-# Predict on our test set
+{% capture code %}# Predict on our test set
 y_pred = pipe.predict(X_test)
 
 # Visualize some of the prediction
@@ -640,10 +602,8 @@ tmp = pd.DataFrame(
         "true_label": y_test
     }
 )
-tmp.head()
-```
-
-
+tmp.head(){% endcapture %}
+{% include code.html code=code lang="python" %}
 
 
 <div>
@@ -704,17 +664,10 @@ tmp.head()
 </table>
 </div>
 
-
-
 At first glance, all of the results seems correct. Let's be sure by filtering out the wrong predictions.
 
-
-```python
-tmp[tmp['predicted_label']!=tmp['true_label']]
-```
-
-
-
+{% capture code %}tmp[tmp['predicted_label']!=tmp['true_label']]{% endcapture %}
+{% include code.html code=code lang="python" %}
 
 <div>
 <style scoped>
@@ -767,15 +720,12 @@ tmp[tmp['predicted_label']!=tmp['true_label']]
 Apparently, there are still 3 samples that our classifier had predicted wrongly.
 
 
-```python
-accuracy_score(y_test, y_pred)
+{% capture code %}accuracy_score(y_test, y_pred){% endcapture %}
+{% include code.html code=code lang="python" %}
+
 ```
-
-
-
-
-    0.9
-
+0.9
+```
 
 
 We managed to boost our accuracy to 90%! While getting an accuracy of 90% can be quite good for most cases in the real world scenario, we know as a fact that any good programmers can come out with functions that can classify an integer as even or odd 100% of the time. How can me make the model learn to do this?
@@ -787,8 +737,7 @@ A **decision tree** is made up of multiple nodes, containing a condition for som
 The below code visualizes the decision trees in our `RandomForestClassifer`.
 
 
-```python
-dot_data = StringIO()
+{% capture code %}dot_data = StringIO()
 
 i_tree = 0
 for tree_in_forest in pipe.get_params()['classifier'].estimators_:
@@ -798,8 +747,8 @@ for tree_in_forest in pipe.get_params()['classifier'].estimators_:
                     special_characters=True,
                    )
     graph = pydotplus.graph_from_dot_data(dot_data.getvalue())  
-    display.display(Image(graph.create_png()))
-```
+    display.display(Image(graph.create_png())){% endcapture %}
+{% include code.html code=code lang="python" %}
 
 
 {% include captioned_image.html
@@ -826,8 +775,7 @@ Why? In our case, only the feature X<sub>6</sub> (right most binary digit) is us
 In our case, the classifier had managed to identify X<sub>6</sub> as an important feature, but due to the noises from other features, it was unable predict correctly all the time. This can be seen by showing the feature importance of each features using `feature_importances_`. Notice how the last feature (X<sub>6</sub>) has almost 80% importance, the highest among all the features.
 
 
-```python
-feature_names = ["X"+str(i) for i in range(7)]
+{% capture code %}feature_names = ["X"+str(i) for i in range(7)]
 feature_importance = pipe.get_params()['classifier'].feature_importances_.tolist()
 
 pd.DataFrame(
@@ -835,11 +783,8 @@ pd.DataFrame(
         "feature_names": feature_names,
         "feature_importance": feature_importance
     }
-)
-```
-
-
-
+){% endcapture %}
+{% include code.html code=code lang="python" %}
 
 <div>
 <style scoped>
@@ -922,9 +867,7 @@ We will use a univariate feature selection methods, that will peform some statis
 
 We will one of the univariate feature selection transformer provided by sklearn `SelectFdr()` where features with low false discovery rate are kept. We will calculate the statistics with `chi2`, as it is suitable for classification problem with non-negative features. There are other methods, but we will use this for this example.
 
-
-```python
-# Binarize
+{% capture code %}# Binarize
 be = BinaryEncoder(n=7)
 bin_X = be.fit_transform(X_train, y_train)
 
@@ -943,11 +886,8 @@ temp = pd.DataFrame(
 )
 temp["p_values"] = temp["p_values"].apply(make_float) # Make it to show digits
 
-temp
-```
-
-
-
+temp{% endcapture %}
+{% include code.html code=code lang="python" %}
 
 <div>
 <style scoped>
@@ -1019,21 +959,16 @@ temp
 </table>
 </div>
 
-
-
 As we can see from the code above, our feature selection method is able to select X<sub>6</sub> as the only important features! Let's now put the feature selection method into our machine learning pipeline and retrain our model!
 
-
-```python
-pipe = Pipeline(
+{% capture code %}pipe = Pipeline(
     steps=[
         ('binary_encoder', BinaryEncoder(n=8)),
         ('feature_selector', SelectFdr(chi2, alpha=0.01)),
         ('classifier', RandomForestClassifier(n_estimators=3, random_state=7))
     ]
-)
-
-```
+){% endcapture %}
+{% include code.html code=code lang="python" %}
 
 Our pipeline now looks like this:
 {% include captioned_image.html
@@ -1042,48 +977,40 @@ Our pipeline now looks like this:
 %}
 
 
-```python
-pipe.fit(X_train, y_train)
+{% capture code %}pipe.fit(X_train, y_train){% endcapture %}
+{% include code.html code=code lang="python" %}
+
+```
+Pipeline(memory=None,
+         steps=[('binary_encoder',
+                 <__main__.BinaryEncoder object at 0x0000029766968F08>),
+                ('feature_selector',
+                 SelectFdr(alpha=0.01,
+                           score_func=<function chi2 at 0x000002976579E798>)),
+                ('classifier',
+                 RandomForestClassifier(bootstrap=True, class_weight=None,
+                                        criterion='gini', max_depth=None,
+                                        max_features='auto',
+                                        max_leaf_nodes=None,
+                                        min_impurity_decrease=0.0,
+                                        min_impurity_split=None,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        n_estimators=3, n_jobs=None,
+                                        oob_score=False, random_state=7,
+                                        verbose=0, warm_start=False))],
+         verbose=False)
 ```
 
 
-
-
-    Pipeline(memory=None,
-             steps=[('binary_encoder',
-                     <__main__.BinaryEncoder object at 0x0000029766968F08>),
-                    ('feature_selector',
-                     SelectFdr(alpha=0.01,
-                               score_func=<function chi2 at 0x000002976579E798>)),
-                    ('classifier',
-                     RandomForestClassifier(bootstrap=True, class_weight=None,
-                                            criterion='gini', max_depth=None,
-                                            max_features='auto',
-                                            max_leaf_nodes=None,
-                                            min_impurity_decrease=0.0,
-                                            min_impurity_split=None,
-                                            min_samples_leaf=1, min_samples_split=2,
-                                            min_weight_fraction_leaf=0.0,
-                                            n_estimators=3, n_jobs=None,
-                                            oob_score=False, random_state=7,
-                                            verbose=0, warm_start=False))],
-             verbose=False)
-
-
-
-
-```python
-y_pred = pipe.predict(X_test)
+{% capture code %}y_pred = pipe.predict(X_test)
 pd.DataFrame(
     data={
         "number": X_test['number'],
         "label": y_pred
     }
-).head()
-```
-
-
-
+).head(){% endcapture %}
+{% include code.html code=code lang="python" %}
 
 <div>
 <style scoped>
@@ -1137,65 +1064,49 @@ pd.DataFrame(
 </table>
 </div>
 
+{% capture code %}accuracy_score(y_test, y_pred){% endcapture %}
+{% include code.html code=code lang="python" %}
 
-
-
-```python
-accuracy_score(y_test, y_pred)
 ```
-
-
-
-
-    1.0
-
-
+1.0
+```
 
 Look! We managed to boost our accuracy to 100%! 
 
+{% capture code %}pipe.get_params()['classifier'].feature_importances_.tolist(){% endcapture %}
+{% include code.html code=code lang="python" %}
 
-```python
-pipe.get_params()['classifier'].feature_importances_.tolist()
 ```
-
-
-
-
-    [1.0]
-
-
+[1.0]
+```
 
 Let's visualize the trees in our model.
 
 
-```python
-i_tree = 0
+{% capture code %}i_tree = 0
 for tree_in_forest in pipe.get_params()['classifier'].estimators_:
     dot_data = StringIO()
     export_graphviz(tree_in_forest, out_file=dot_data,  
                     filled=True, rounded=True,
                     special_characters=True)
     graph = pydotplus.graph_from_dot_data(dot_data.getvalue())  
-    display.display(Image(graph.create_png()))
-```
+    display.display(Image(graph.create_png())){% endcapture %}
+{% include code.html code=code lang="python" %}
 
 {% include captioned_image.html
     src="iseven_with_ml/output/output_52_0.png" 
     alt="tree 4" 
 %}
 
-
 {% include captioned_image.html
     src="iseven_with_ml/output/output_52_1.png" 
     alt="tree 5" 
 %}
 
-
 {% include captioned_image.html
     src="iseven_with_ml/output/output_52_2.png" 
     alt="tree 6" 
 %}
-
 
 All of the trees now only considers one features and the irrelevant features are ignored!
 
@@ -1207,123 +1118,91 @@ Model training is a time consuming process in real life and we can't afford to t
 We will be using the pickle module for this task.
 
 
-```python
-import pickle
+{% capture code %}import pickle
 
 with open('classifier.pkl', 'wb') as f:
-    pickle.dump(pipe, f)
-```
+    pickle.dump(pipe, f){% endcapture %}
+{% include code.html code=code lang="python" %}
 
 ### 12. Writing the `isEven()` function, using our model
 Finally, now we can now use our model to write the `isEven()` function!
 
 
-```python
-def isEven(x):
+{% capture code %}def isEven(x):
     # First, load the model
     with open('classifier.pkl', 'rb') as f:
         pipe = pickle.load(f)
-    return pipe.predict(np.array([[x]]))[0] == 'Even' # Return True if prediction is `Even`
-```
+    return pipe.predict(np.array([[x]]))[0] == 'Even' # Return True if prediction is `Even`{% endcapture %}
+{% include code.html code=code lang="python" %}
 
 Let's try our function on some unseen numbers!
 
 
-```python
-for i in [103, 104, 180, 193]:
+{% capture code %}for i in [103, 104, 180, 193]:
     print("isEven({}) = {}".format(i, isEven(i)))
-    print()
-```
+    print(){% endcapture %}
+{% include code.html code=code lang="python" %}
 
-    isEven(103) = False
-    
-    isEven(104) = True
-    
-    isEven(180) = True
-    
-    isEven(193) = False
-    
+```
+isEven(103) = False
+
+isEven(104) = True
+
+isEven(180) = True
+
+isEven(193) = False
+``` 
     
 
 Note: Numbers that are have more than 7 digits in it's binary form can't work with our classifier!
 
 
-```python
-print("isEven({}) = {}".format(350, isEven(350)))
+{% capture code %}print("isEven({}) = {}".format(350, isEven(350))){% endcapture %}
+{% include code.html code=code lang="python" %}
+
+```
+c:\...\lib\site-packages\sklearn\feature_selection\base.py in transform(self, X)
+     80             return np.empty(0).reshape((X.shape[0], 0))
+     81         if len(mask) != X.shape[1]:
+---> 82             raise ValueError("X has a different shape than during fitting.")
+     83         return X[:, safe_mask(X, mask)]
+     84 
+
+
+ValueError: X has a different shape than during fitting.
 ```
 
 
-    ---------------------------------------------------------------------------
-
-    ValueError                                Traceback (most recent call last)
-
-    <ipython-input-42-c0f6e829a3b8> in <module>
-    ----> 1 print("isEven({}) = {}".format(350, isEven(350)))
-    
-
-    <ipython-input-29-12f761d05ebc> in isEven(x)
-          3     with open('classifier.pkl', 'rb') as f:
-          4         pipe = pickle.load(f)
-    ----> 5     return pipe.predict(np.array([[x]]))[0] == 'Even' # Return True if prediction is `Even`
-    
-
-    c:\users\acer\miniconda3\envs\automl\lib\site-packages\sklearn\utils\metaestimators.py in <lambda>(*args, **kwargs)
-        114 
-        115         # lambda, but not partial, allows help() to work with update_wrapper
-    --> 116         out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)
-        117         # update the docstring of the returned function
-        118         update_wrapper(out, self.fn)
-    
-
-    c:\users\acer\miniconda3\envs\automl\lib\site-packages\sklearn\pipeline.py in predict(self, X, **predict_params)
-        419         Xt = X
-        420         for _, name, transform in self._iter(with_final=False):
-    --> 421             Xt = transform.transform(Xt)
-        422         return self.steps[-1][-1].predict(Xt, **predict_params)
-        423 
-    
-
-    c:\users\acer\miniconda3\envs\automl\lib\site-packages\sklearn\feature_selection\base.py in transform(self, X)
-         80             return np.empty(0).reshape((X.shape[0], 0))
-         81         if len(mask) != X.shape[1]:
-    ---> 82             raise ValueError("X has a different shape than during fitting.")
-         83         return X[:, safe_mask(X, mask)]
-         84 
-    
-
-    ValueError: X has a different shape than during fitting.
-
-
-
-```python
-# This is how a normal human being would write the `isEven()` function
+{% capture code %}# This is how a normal human being would write the `isEven()` function
 def isEven(x):
     return x % 2 == 0
 
 for i in [103, 104, 180, 193]:
     print("isEven({}) = {}".format(i, isEven(i)))
-    print()
-```
+    print(){% endcapture %}
+{% include code.html code=code lang="python" %}
 
-    isEven(103) = False
-    
-    isEven(104) = True
-    
-    isEven(180) = True
-    
-    isEven(193) = False
-    
+```
+isEven(103) = False
+
+isEven(104) = True
+
+isEven(180) = True
+
+isEven(193) = False
+```    
     
 
 ## Conclusion
 Congratualations! You have now (foolishly) solved the simple problem of classifying a number as even or odd, by applying machine learning!
 
-> What a waste of time? I could've code it in 2 lines, like this:
+> "What a waste of time! I could've code it in 2 lines, like this:
 > ```python
 > # This is how a normal human being would write the `isEven()` function
 > def isEven(x):
 >     return x % 2 == 0
 > ```
+> "
 
 Well, no. Throughout the tutorial, you have learned:
 - how machine learning differs from traditional programming

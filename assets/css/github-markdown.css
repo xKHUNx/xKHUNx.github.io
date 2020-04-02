@@ -1290,6 +1290,7 @@ figcaption {
   display: flex;
   padding-left: 6px;
   padding-right: 6px;
+  font-family: sans-serif;
 }
 
 .copy-code-button::before {
