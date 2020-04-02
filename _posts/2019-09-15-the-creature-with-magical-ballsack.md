@@ -84,8 +84,11 @@ There is also a traditional interpretation of these eight traits, which I won’
 
 As you can see in these images, tanuki is depicted to use their magical, flexible ballsack for just about anything. From using them as shade, to carry things, as archery target, as a fishing net, as shop signs, as a boat, as a drum and a plethora of other activities and function that you wouldn’t normally use your ballsack to perform.
 
-![stretchy-ball-sack](/assets/img/tanuki/tanuki-mat.gif)
-*Wow, nice floor mat you have there... Oh nevermind.*
+{% include captioned_image.html
+    src="tanuki/tanuki-mat.gif" 
+    alt="tanuki stretchy ball sacki" 
+    caption="Wow, nice floor mat you have there... Oh nevermind." 
+%}
 
 It is said that the ballsack of tanuki can be stretched to the size of eight tatamis. Believe it or not, the exaggerating size of tanuki’s ballsack has nothing to with their sex prowess, but rather it means "luck with expanding one's money and wealth." 
 
@@ -115,8 +118,11 @@ Here is a [video](https://www.youtube.com/watch?v=W1zuPnEzA-o) of Aichan, a pet 
 
 Being such a popular animal in Japan, it’s not hard to find tanuki in popular culture. Ghibli Studio’s Pom Poko, which is produced by Hayao Miyazaki is a movie that is centered around a group of tanuki, and their struggle to survive in the modern world as mankind expands into their territory for modern development. In one scene, a group of tanukis even attack humans with their magical ballsack.  Watching the movie is a great way to learn about tanuki in Japanese folktales and culture in general. I will definitely recommend anyone to watch it. Though be warned, there are a lot of tanuki testicles in the movie.
 
-![pom-poko](/assets/img/tanuki/aerial-attack.gif)
-*An absurd scene in Pom Poko, one of Hayao Miyazaki's less known movie.*
+{% include captioned_image.html
+    src="tanuki/aerial-attack.gif" 
+    alt="pom poko aerial attack scene" 
+    caption="An absurd scene in Pom Poko, one of Hayao Miyazaki's less known movie, Pom Poko." 
+%}
 
 In some Mario games, Mario can obtain a Tanooki Suit that allows Mario to transformed into an invulnerable Jizō statue (Jizō is another topic I wanted to do for my blog post, stay tuned). In Mario & Luigi: Superstar Saga, a Tanoomba (a combination of Goomba and Tanuki) can be found as enemies in the game. One of their attacks involved shapeshifting into one of the Mario bros and attack them. Here’s a footage of Tanoomba here.
 
@@ -127,41 +133,47 @@ In Naruto, one of the nine-tailed beasts Shukaku is a tanuki, and the plot of th
 
 ### End words
 
-![swinging-ball-sacks](/assets/img/tanuki/tanuki-swing-balls-commerical.gif)
-*As as reward for reaching this far, here's a tanuki featured in a Japanese construction firm's commercial.*
+{% include captioned_image.html
+    src="tanuki/tanuki-swing-balls-commerical.gif" 
+    alt="tanuki swinging ball sacks" 
+    caption="As as reward for reaching this far, here's a tanuki featured in a Japanese construction firm's commercial." 
+%}
 
 What started as my curiosity turns into a cultural lesson for me and this post took me to research and write. I hope you enjoy this post and have learned a thing or two about this unique creature, as well as some Japanese culture.
 
 ### Read More
 
-![cute-tanuki](/assets/img/tanuki/tanuki.png)
-*Ok, here's a cute one.*
+{% include captioned_image.html
+    src="tanuki/tanuki.png" 
+    alt="cute tanuki" 
+    caption="Ok, here's a cute one." 
+%}
 
 I’ve tried to cover as much tanuki facts as possible, especially its role in Japanese culture. I may have left out some details and if you want to learn more, you can go through the source material I’ve listed below. [Onmark Productions](http://www.onmarkproductions.com/html/tanuki.shtml) deserves a special mention for the amount of detailed information provided.
 
-- (http://www.onmarkproductions.com/html/tanuki.shtml)
-- (https://baike.baidu.com/item/%E7%8B%B8/18397639)
-- (https://en.wikipedia.org/wiki/Japanese_raccoon_dog#In_popular_culture)
-- (https://www.zhihu.com/question/54530226/answer/522369670)
-- (https://ja.wikipedia.org/wiki/%E5%8C%96%E3%81%91%E7%8B%B8)
-- (https://zh.wikipedia.org/wiki/%E5%8C%96%E7%8B%B8)
-- (https://www.tokyocreative.com/articles/20140-tanuki-real-and-magical)
-- (http://lifeinjapanjason.blogspot.com/2011/07/tanuki-in-japanese-culture.html)
-- (https://www.pinterest.com/pin/177540410295389229)
-- (https://minwa.fujipan.co.jp/area/kumamoto_001)
-- (https://io9.gizmodo.com/the-animal-with-the-most-legendary-testicles-in-the-wor-1694222408)
-- (https://www.tokyocreative.com/sights/6471-shigaraki-tanuki-village)
-- (http://loveartlab.me/2015/05/20/the-raccoon-dog-ornament-is-a-lucky-charm)
-- (https://nirc.nanzan-u.ac.jp/nfile/1404)
-- (http://gakkenmu.jp/column/8813)
-- (https://okab.exblog.jp/26997452)
-- (http://shop.shigaraki-labo.co.jp/html/page3.html)
-- (https://www.atlasobscura.com/articles/the-tanuki-japan-s-trickster-god)
-- (https://traditionalkyoto.com/culture/figures/badgers)
-- (https://en.wikipedia.org/wiki/Shigaraki_ware)
-- (https://zhuanlan.zhihu.com/p/27522927)
-- (https://omamorifromjapan.blogspot.com/2011/11/hikoichi-from-kumamoto.html)
-- (https://folklorethursday.com/legends/tanuki-mischief-magic-and-change-in-the-japanese-countryside)
-- (https://animals.net/tanuki)
-- (http://kuniyoshiproject.com/raccoon%20Dogs%20(R209).htm)
+- <http://www.onmarkproductions.com/html/tanuki.shtml>
+- <https://baike.baidu.com/item/%E7%8B%B8/18397639>
+- <https://en.wikipedia.org/wiki/Japanese_raccoon_dog#In_popular_culture>
+- <https://www.zhihu.com/question/54530226/answer/522369670>
+- <https://ja.wikipedia.org/wiki/%E5%8C%96%E3%81%91%E7%8B%B8>
+- <https://zh.wikipedia.org/wiki/%E5%8C%96%E7%8B%B8>
+- <https://www.tokyocreative.com/articles/20140-tanuki-real-and-magical>
+- <http://lifeinjapanjason.blogspot.com/2011/07/tanuki-in-japanese-culture.html>
+- <https://www.pinterest.com/pin/177540410295389229>
+- <https://minwa.fujipan.co.jp/area/kumamoto_001>
+- <https://io9.gizmodo.com/the-animal-with-the-most-legendary-testicles-in-the-wor-1694222408>
+- <https://www.tokyocreative.com/sights/6471-shigaraki-tanuki-village>
+- <http://loveartlab.me/2015/05/20/the-raccoon-dog-ornament-is-a-lucky-charm>
+- <https://nirc.nanzan-u.ac.jp/nfile/1404>
+- <http://gakkenmu.jp/column/8813>
+- <https://okab.exblog.jp/26997452>
+- <http://shop.shigaraki-labo.co.jp/html/page3.html>
+- <https://www.atlasobscura.com/articles/the-tanuki-japan-s-trickster-god>
+- <https://traditionalkyoto.com/culture/figures/badgers>
+- <https://en.wikipedia.org/wiki/Shigaraki_ware>
+- <https://zhuanlan.zhihu.com/p/27522927>
+- <https://omamorifromjapan.blogspot.com/2011/11/hikoichi-from-kumamoto.html>
+- <https://folklorethursday.com/legends/tanuki-mischief-magic-and-change-in-the-japanese-countryside>
+- <https://animals.net/tanuki>
+- <http://kuniyoshiproject.com/raccoon%20Dogs%20(R209).htm>
 

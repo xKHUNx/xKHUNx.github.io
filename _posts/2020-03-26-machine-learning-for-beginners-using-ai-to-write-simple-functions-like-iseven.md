@@ -36,8 +36,6 @@ While there are many ways to tackle this problem: some of them are creative, som
 ### Traditional Programming vs Machine Learning
 Unlike traditional programming, instead of coding the program to classify it for us, we train an algorithm the data and expectd output, and the algorithm give us the program.
 
-
-
 {% include captioned_image.html
     src="iseven_with_ml/traditional_vs_ML.png" 
     alt="traditional-vs-ml" 
@@ -110,7 +108,7 @@ We will generate our data and put into a data frame like this:
         # List of integers from 0 to 99 (100 integers) 
         'number': range(100), 
         # Alternating between Even and Odd for 50 times
-        "label": ["Even", "Odd"] * 5  0
+        "label": ["Even", "Odd"] * 50
     }
 )
 df{% endcapture %}
