@@ -1212,4 +1212,6 @@ Well, no. Throughout the tutorial, you have learned:
 
 Well, at least now you can brag to your friends how you had managed to **force an AI to write simple functions** for you. XD
 
+The code and jupyter notebook for this tutorial can be found [here](https://github.com/xKHUNx/ml-iseven).
+
 I hope you learn a thing or two from this tutorial, or at least enjoyed it. Stay tuned for more content on programming!
