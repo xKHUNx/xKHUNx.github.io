@@ -9,6 +9,12 @@ tags: machine learning AI data science tutorial beginner funny meme
 
 If you wanted to learn some basic machine learning, or you just wanted to find a fancy new way to write the **isEven()** function, you've come to the right place! In this article, I will show you how to leverage on "big data", "A.I." and "machine learning" to write your own **isEven()** function. (LOL)
 
+{% include captioned_image.html
+    src="iseven_with_ml/meme.png" 
+    alt="big brain meme"
+    caption="Why solve the problem normally when you can solve them with AI?"
+%}
+
 ## Introduction
 In this article, you will learn how to code and build a simple machine learning pipeline using scikit-learn libraries in Python. For those that are familliar with machine learning, this article provide you a fun (but dumb) way to write the famous **isEven()** function.
 
