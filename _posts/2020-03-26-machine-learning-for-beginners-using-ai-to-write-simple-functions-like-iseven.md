@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Machine Learning for beginners: Using AI to write simple functions like isEven()'
+title: 'Machine Learning for beginners: Using AI to write simple isEven() function '
 date: 2020-03-26
 author: Khun
 cover: '/assets/img/iseven_with_ml/bigbrain_cover.png'
