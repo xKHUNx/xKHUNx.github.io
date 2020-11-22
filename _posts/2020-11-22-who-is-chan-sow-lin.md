@@ -7,7 +7,7 @@ cover: '/assets/img/chan_sow_lin/chan_sow_lin_cover.png'
 tags: LRT MRT local history Malaysia Chinese
 ---
 
-“Who is Chan Sow Lin?” I thought to myself, while staring at the station map on the LRT. The name of this LRT station caught my eyes. While there are plenty of places named after people, I’ve never noticed that there’s a LRT station named after a Chinese. This piqued my interest, and needless to say, I began my research about this Chan Sow Lin guy.
+“Who is Chan Sow Lin?” I thought to myself while staring at the station map on the LRT. The name of this LRT station caught my eyes. While there are plenty of places named after people, I’ve never noticed that there’s an LRT station named after a Chinese. This piqued my interest, and needless to say, I began my research about this Chan Sow Lin guy.
 
 {% include captioned_image.html
     src="chan_sow_lin/MYS_Route_Map_LRT_AGL_SPL.svg" 
@@ -28,19 +28,19 @@ To my disappointment, there is no Wikipedia page (at that time) about the person
 {% include captioned_image.html
     src="chan_sow_lin/chan_sow_lin_potrait.png" 
     alt="Chan Sow Lin's potrait."
-    caption="Chan Sow Lin's potrait."
+    caption="Chan Sow Lin's portrait."
 %}
 
-Chan Sow Lin (陳秀連) was born into a poor family in the Panyu district, Guangdong province of China in 1845. Not much is known about his early life, except that he migrated to Malaya at the age of 16, in search for a better life.
+Chan Sow Lin (陳秀連) was born into a poor family in the Panyu District, Guangdong province of China in 1845. Not much is known about his early life, except that he migrated to Malaya at the age of 16, in search of a better life.
 
 {% include captioned_image.html
     src="chan_sow_lin/panyu_to_taiping.png" 
     alt="Chan Sow Lin migrated to Malaya in search for a better life."
-    caption="Chan Sow Lin migrated to Malaya in search for a better life."
+    caption="Chan Sow Lin migrated to Malaya in search of a better life."
     width="60%"
 %} 
 
-He started working in Taiping under Low Sam in tin mining. Chan quickly earned the trust of Low Sam, and was appointed to supervise the tin mines at Assam Kumbang, Taiping within a few months. And a year later, he was given full authority by Low Sam to take charge in all his mining interests in Larut district.
+He started working in Taiping under Low Sam in tin mining. Chan quickly earned the trust of Low Sam and was appointed to supervise the tin mines at Assam Kumbang, Taiping within a few months. And a year later, he was given full authority by Low Sam to take charge of all his mining interests in the Larut district.
 
 {% include captioned_image.html
     src="chan_sow_lin/tin_mining_perak.jpg" 
@@ -51,24 +51,24 @@ He started working in Taiping under Low Sam in tin mining. Chan quickly earned t
 Chan’s tough childhood means he had not received much education during his early life. While working for a living, Chan hired a private tutor to learn Chinese. He had also learned the local Malay language, which proved to be useful for his business later in his life.
 
 ## Larut War
-Taiping, then known as Larut, is caught in a series of wars waged between Chinese dialect group Ghee Hin (mainly Cantonese) and Hai San (mainly Hakka). They are collectively known as the Larut War. Chan is involved in a conflict between Si Yap and Chung Loong groups, and was seriously wounded and had to be treated in Penang.
+Taiping, then known as Larut, is caught in a series of wars waged between Chinese dialect group Ghee Hin (mainly Cantonese) and Hai San (mainly Hakka). They were collectively known as the Larut War. Chan was involved in a conflict between Si Yap and Chung Loong groups, and he was seriously wounded and had to be treated in Penang.
 
-The war finally ended when Larut was captured by the British troops. Not content  with the outcome of the war, some of the members are eager to restart another war. Chan acted promptly to act as mediator between both parties. He offered to arrange a dinner to convince both parties that it was in their best interest to keep the peace. To prove his sincerity, Chan offered himself as the hostage to the rivals. The dinner ended with both parties agreeing to a truce. 
+The war finally ended when Larut was captured by the British troops. Not content with the outcome of the war, some of the members were eager to restart another war. Chan acted promptly to act as a mediator between both parties. He offered to arrange a dinner to convince both parties that it was in their best interest to maintain the peace. To prove his sincerity, Chan offered himself as the hostage to the rivals. The dinner ended with both parties agreeing to a truce. 
 
 ## Business Venture
-After the war, Chan re-joined Low Sam briefly, and later founded his own tin mining business. During his time in Taiping, he met Loke Yew, a fellow Chinese migrant who later came to be the richest man in British Malaya. 
+After the war, Chan re-joined Low Sam briefly, later founded his own tin mining business. During his time in Taiping, he met Loke Yew, a fellow Chinese migrant who later came to be the richest man in British Malaya. 
 
-In 1883, Chan and Loke Yew moved to Selangor together to avoid the war in Perak, The Selangor Government welcomed fresh investments and barren lands and tin mines, as the economy there was also being affected by the war in Perak. Barren lands and tin mines are leased at very low remunerations. Together, the duo became the pioneer and the largest tin mine owner.
+In 1883, Chan and Loke Yew moved to Selangor together to avoid the war in Perak. The Selangor Government welcomed fresh investments, as the economy there was being affected by the war in Perak. Barren lands and tin mines were leased at very low remunerations. Together, the duo became the pioneer and the largest tin mine owner.
 
-In 1893, Chan leased two rich mine lands at Serdang and Sungei Besi from Loke Yew under his firm, Chop Tan Kee, and later the mining lands at Simpah, Sungei Puteh, Kuala Kubu, Setapak, Kepong and Petaling from the government.
+In 1893, Chan leased two rich mine lands at Serdang and Sungei Besi from Loke Yew under his firm, Chop Tan Kee, and later, the mining lands at Simpah, Sungei Puteh, Kuala Kubu, Setapak, Kepong, and Petaling from the government.
 
 {% include captioned_image.html
     src="chan_sow_lin/tin_dredge_model.jpg" 
     alt="A tin dredge model from 1938, as seen in Muzium Negara."
-    caption="A tin dredge model from 1938, as seen in Muzium Negara. Note that this tin dredge is more modern version than the one used by Chan."
+    caption="A tin dredge model from 1938, as seen in Muzium Negara. Note that this tin dredge is a more modern version than the one used by Chan."
 %}
 
-Chan became the first Chinese to use tin dredge for mining tin. At that time, most of the tin dredge machinery was imported from British, which is expensive. In order to cut costs, Chan founded Chop Mee Lee (or known as Chan Sow Lin & Co. Ltd) in Jalan Ampang, an ironwork foundry that focused on producing high quality tools and machinery for mining. He employed technicians from Guang Zhou and Hong Kong to train the local labour in the engineering works. His success spawned the establishment of other foundries in the area, and this contributed to the development of the economy of Kuala Lumpur. 
+Chan became the first Chinese to use tin dredge for mining tin. At that time, most of the tin dredge machinery was imported from the British, which is expensive. To cut costs, Chan founded Chop Mee Lee (or known as Chan Sow Lin & Co. Ltd) in Jalan Ampang, an ironwork foundry that focused on producing high-quality tools and machinery for mining. He employed technicians from Guang Zhou and Hong Kong to train the local labour in the engineering work. His success spawned the establishment of other foundries in the area, and this contributed to the development of the economy of Kuala Lumpur. 
 
 ## Political Life
 
@@ -79,10 +79,10 @@ Chan became the first Chinese to use tin dredge for mining tin. At that time, mo
     width="30%"
 %}
 
-In 1902, the fifth Kapitan Cina, Yap Kwan Seng died. The British government abolished the Kapitan system, in favour of the state council system. Chan is appointed as the first Chinese member of the Selangor state council, making him effectively the sixth Kapitan Cina.
+In 1902, the fifth Kapitan Cina, Yap Kwan Seng passed away. The British government abolished the Kapitan system, in favour of the state council system. Chan is appointed as the first Chinese member of the Selangor state council, making him effectively the sixth Kapitan Cina.
 
 ## Philanthropy and Social Contributions
-Being a wealthy man, Chan did not forget to give back to society and is proactive in giving back to the community.  In 1894, he helped convert Pooi Shin Thong (培善堂), a traditional medicine clinic funded by the previous Kapitan, into a NGO hospital, Tung Shin Hospital (同善医院). The hospital is equipped with a modernised medical system and had enabled a lot of poor people the opportunity to get medical treatment.
+Being a wealthy man, Chan did not forget to contribute to society and was proactive in giving back to the community.  In 1894, he helped convert Pooi Shin Thong (培善堂), a traditional medicine clinic funded by the previous Kapitan, into an NGO hospital, Tung Shin Hospital (同善医院). The hospital was equipped with a modernised medical system and had enabled a lot of poor people the opportunity to get medical treatment.
 
 {% include captioned_image.html
     src="chan_sow_lin/tung_shin_hospital.jpg" 
@@ -100,7 +100,7 @@ He also cared about education, as he co-founded the Confucius School as well as 
     width="80%"
 %}
 
-He was appointed as the trustee of Sin Sze Si Ya Temple (仙四师爷庙)’s  assets. He even donated a plot of land to build Chan She Shu Yuen (陈氏书院), which can now still be found at Petaling Street, Kuala Lumpur. 
+He was appointed as the trustee of Sin Sze Si Ya Temple (仙四师爷庙)’s assets. He even donated a plot of land to build Chan She Shu Yuen (陈氏书院), which can now still be found at Petaling Street, Kuala Lumpur. 
 
 {% include captioned_image.html
     src="chan_sow_lin/chan_shi_shu_yuan.jpg" 
@@ -109,19 +109,19 @@ He was appointed as the trustee of Sin Sze Si Ya Temple (仙四师爷庙)’s  a
     width="80%"
 %}
 
-Besides that, he also co-founded Jishantang Charity Hall. Chan was the chairman of the Selangor Anti-Opium Society.  He was also a member of the Visiting Committee of the Selangor Goal, the Lunatic Asylum and the Selangor General Hospital.  
+Besides that, he also co-founded Jishantang Charity Hall. Chan was the chairman of the Selangor Anti-Opium Society.  He was a member of the Visiting Committee of the Selangor Goal, the Lunatic Asylum, and the Selangor General Hospital.  
 
 {% include captioned_image.html
     src="chan_sow_lin/loke_yew.png" 
     alt="Loke Yew, Chan Sow Lin's friend and fellow tin tycoon."
-    caption="Loke Yew, Chan Sow Lin's friend and fellow tin tycoon."
+    caption="Loke Yew, Chan Sow Lin's friend, and fellow tin tycoon."
     width="30%"
 %}
 
-Chan also succeeded his best friend Loke Yew to become the second president of the Selangor Chinese Chamber of Commerce, from 1907 to 1909. 
+Chan succeeded his best friend Loke Yew to become the second president of the Selangor Chinese Chamber of Commerce, from 1907 to 1909. 
 
 ## Achievements
-In 1906, a special commissioner on education to the Malayan States was sent by the viceroy of Guangdong under the decree of the emperor of China. After visiting the Chinese-owned companies and tin mines, the commissioner had written a report to the viceroy praising Chan's role in promoting Chinese culture, knowledge and technology in his business in the Malay States. For this, the viceroy awarded him a medal. He was awarded another medal by His Excellency Wong, the Chinese ambassador to England (Malaya is under British rule at the time) for his philanthropic work. 
+In 1906, a special commissioner on education to the Malayan States was sent by the viceroy of Guangdong under the decree of the emperor of China. After visiting the Chinese-owned companies and tin mines, the commissioner had written a report to the viceroy praising Chan's role in promoting Chinese culture, knowledge, and technology in his business in the Malay States. For this, the viceroy awarded him a medal. He was awarded another medal by His Excellency Wong, the Chinese ambassador to England (Malaya is under British rule at the time) for his philanthropic work. 
 
 Besides being a tin tycoon, his pioneering in the ironwork industry earned him the title of The Father of Iron Works in Malaya.
 
@@ -134,18 +134,18 @@ Besides being a tin tycoon, his pioneering in the ironwork industry earned him t
     width="30%"
 %}
 
-On 8 June 1927, Chan passed away at his residence at 20 Klyne Street, Kuala Lumpur. He is survived by four sons. He was buried at the Guangdong Cemetery in Sungai Besi, Malaysia, and his grave is located about 3 minutes walk from the main access road called Jalan Kerayong, there is a memorial plaque pointing to his tomb.
+On 8 June 1927, Chan passed away at his residence at 20 Klyne Street, Kuala Lumpur. He was survived by four sons. He was buried at the Guangdong Cemetery in Sungai Besi, Malaysia, and his grave is located about 3 minutes walk from the main access road called Jalan Kerayong, there is a memorial plaque pointing to his tomb.
 
 To commemorate his contributions to the development of Kuala Lumpur, the British Malayan government named a road Jalan Chan Sow Lin, after him. The road is nestled between the Sungai Besi airport and Pudu and is now an industrial zone. It is said that the road was famous for ironworks, even after his death.
 
 {% include captioned_image.html
     src="chan_sow_lin/jalan_chan_sow_lin.jpg" 
     alt="Jalan Chan Sow Lin."
-    caption="Jalan Chan Sow Lin was once famous for it's ironwork."
+    caption="Jalan Chan Sow Lin was once famous for its ironwork."
     width="70%"
 %}
 
-The Chan Sow Lin LRT station, is named after Jalan Chan Sow Lin, and it serves as the interchange station between the LRT Sri Petaling Line and LRT Ampang Line. The station will also link the LRT passengers to the Putrajaya Line MRT once the project is completed.
+The Chan Sow Lin LRT station is named after Jalan Chan Sow Lin, and it serves as the interchange station between the LRT Sri Petaling Line and LRT Ampang Line. The station will also link the LRT passengers to the Putrajaya Line MRT once the project is completed.
 
 {% include captioned_image.html
     src="chan_sow_lin/mrt_2.png" 
@@ -154,7 +154,7 @@ The Chan Sow Lin LRT station, is named after Jalan Chan Sow Lin, and it serves a
 %}
 
 ## The Takeaway
-Okay, so it turns out my assumption that the LRT station is named after a person named Chan Sow Lin is wrong, as it is in fact, named after a place, which is named after a person called Chan Sow Lin. I'm surpirsed to learn that the legacy of Chan Sow Lin can still be found today in many corners of Kuala Lumpur, despite being mostly forgotten by the society.
+Okay, so it turns out my assumption that the LRT station is named after a person named Chan Sow Lin is wrong. In fact, it is named after a place, that is named after a person called Chan Sow Lin. I'm surprised to learn that the legacy of Chan Sow Lin can still be found today in many corners of Kuala Lumpur, despite being mostly forgotten by society.
 
 {% include captioned_image.html
     src="chan_sow_lin/chan_sow_lin_sitting.png" 
@@ -162,9 +162,9 @@ Okay, so it turns out my assumption that the LRT station is named after a person
     caption="Another photo of Chan Sow Lin."
 %}
 
-There is always an interesting story behind even the most ordinary location, if we dig hard enough.
+There is always an interesting story behind even the most ordinary location if we dig hard enough.
 
-I hope you enjoyed learning about the story of Chan Sow Lin. I will keep posting more stories on interesting and often overlooked history of this nation, so stay tuned!
+I hope you enjoyed learning about the story of Chan Sow Lin. I will keep posting more stories on the interesting and often overlooked history of this nation, so stay tuned!
 
 ## Disclaimer
-After I did my research (through Googling duh), I made a Wikipedia entry for Chan Sow Lin (the Chinese version already exists, but it’s info isn’t as comprehensive). So if you’re surprised how the content of this article is almost identical, it is because I tried to tell the story of Chan Sow Lin with a more personal touch, and more pictures too!
+After I did my research (through Googling duh), I made a Wikipedia entry for Chan Sow Lin (the Chinese version already exists, but its info isn’t as comprehensive). So if you’re surprised how the content of this article is almost identical, it is because I tried to tell the story of Chan Sow Lin with a more personal touch, and more pictures too!
