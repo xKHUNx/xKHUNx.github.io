@@ -104,8 +104,8 @@ He was appointed as the trustee of Sin Sze Si Ya Temple (仙四师爷庙)’s as
 
 {% include captioned_image.html
     src="chan_sow_lin/chan_shi_shu_yuan.jpg" 
-    alt="Photo of Chan She Shu Yuen, took during my visit to Sri Petaling in February 2020."
-    caption="Photo of Chan She Shu Yuen, took during my visit to Sri Petaling in February 2020."
+    alt="Photo of Chan She Shu Yuen, took during my visit to Petaling Street in February 2020."
+    caption="Photo of Chan She Shu Yuen, took during my visit to Petaling Street in February 2020."
     width="80%"
 %}
 
