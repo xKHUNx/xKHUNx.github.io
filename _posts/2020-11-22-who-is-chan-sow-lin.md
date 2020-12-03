@@ -5,7 +5,7 @@ date: 2020-11-22
 author: Khun
 cover: '/assets/img/chan_sow_lin/chan_sow_lin_cover.png'
 tags: LRT MRT local history Malaysia Chinese
-image: '/assets/img/chan_sow_lin/chan_sow_lin_cover.png'
+thumbnail: '/assets/img/chan_sow_lin/chan_sow_lin_cover.png'
 ---
 
 “Who is Chan Sow Lin?” I thought to myself while staring at the station map on the LRT. The name of this LRT station caught my eyes. While there are plenty of places named after people, I’ve never noticed that there’s an LRT station named after a Chinese. This piqued my interest, and needless to say, I began my research about this Chan Sow Lin guy.
