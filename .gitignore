@@ -4,3 +4,10 @@
 node_modules
 
 _site
+
+# Claude Code artifacts
+.claude/
+
+# Astro build output
+astro-blog/dist/
+astro-blog/.astro/
