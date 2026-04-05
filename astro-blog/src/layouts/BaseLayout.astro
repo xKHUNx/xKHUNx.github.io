@@ -1,0 +1,76 @@
+---
+import '../styles/global.css';
+import GoogleAnalytics from '../components/GoogleAnalytics.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  canonicalUrl?: string;
+}
+
+const {
+  title,
+  description = "昆虫的部落客",
+  ogImage = "https://raw.githubusercontent.com/xKHUNx/xKHUNx.github.io/master/assets/icons/icon_thumbnail.png",
+  canonicalUrl,
+} = Astro.props;
+
+const siteTitle = "Khun's Blog";
+const fullTitle = title === siteTitle ? title : `${title} - ${siteTitle}`;
+const siteUrl = "https://xkhunx.github.io";
+const currentUrl = canonicalUrl ?? new URL(Astro.url.pathname, siteUrl).href;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{fullTitle}</title>
+  <meta name="author" content="Goh Kun Shun" />
+  <meta name="description" content={description} />
+  <meta name="keywords" content="machine, learning, ai, khun, kun, shun, knowledge, graph, rdf, data, nlp" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={currentUrl} />
+  <meta property="og:description" content={description} />
+  <meta property="og:site_name" content={siteTitle} />
+  <meta property="og:image" content={ogImage} />
+
+  <!-- Canonical -->
+  <link rel="canonical" href={currentUrl} />
+
+  <!-- RSS feed discovery -->
+  <link rel="alternate" type="application/rss+xml" title="Khun's Blog" href="https://xkhunx.github.io/rss.xml" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/favicon.ico" />
+
+  <!-- MathJax -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$']],
+        displayMath: [['$$', '$$']],
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+      },
+    };
+  </script>
+  <script
+    type="text/javascript"
+    id="MathJax-script"
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+  ></script>
+
+  <GoogleAnalytics trackingId="G-QJNZ0G6NZK" />
+</head>
+<body>
+  <slot />
+</body>
+</html>

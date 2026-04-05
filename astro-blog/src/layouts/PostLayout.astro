@@ -1,0 +1,185 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Disqus from '../components/Disqus.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'posts'>;
+  prevPost?: { title: string; url: string } | null;
+  nextPost?: { title: string; url: string } | null;
+}
+
+const { post, prevPost, nextPost } = Astro.props;
+const { title, date, author, cover, tags } = post.data;
+
+const formattedDate = date.toLocaleDateString('en-GB', {
+  day: 'numeric', month: 'long', year: 'numeric',
+});
+const shortDate = date.toLocaleDateString('en-GB', {
+  day: '2-digit', month: 'short', year: 'numeric',
+});
+---
+
+<BaseLayout title={title} ogImage={cover}>
+  <Header />
+
+  <div class="post-page-body">
+    <!-- Left metadata rail (hidden on mobile/tablet via CSS) -->
+    <aside class="post-meta-rail">
+      <div class="meta-rail-sticky">
+        <a href="/" class="back-link"> All posts</a>
+        <div class="meta-item">
+          <div class="meta-label">Published</div>
+          <div class="meta-value">{formattedDate}</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Author</div>
+          <div class="meta-value large">{author}</div>
+        </div>
+        {tags.length > 0 && (
+          <div class="meta-item">
+            <div class="meta-label">Tags</div>
+            <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:4px;">
+              {tags.map(tag => (
+                <a href={`/tags#${tag}`} class="tag-chip">{tag}</a>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main class="post-main">
+      {cover && (
+        <img class="post-cover-img" src={cover} alt={title} />
+      )}
+
+      <div class="post-title-block">
+        <h1>{title}</h1>
+        <!-- Inline meta shown on tablet/mobile -->
+        <div class="post-inline-meta">
+          <span>{author}</span>
+          <span>{shortDate}</span>
+          {tags.length > 0 && (
+            <div style="display:flex;gap:6px;flex-wrap:wrap;">
+              {tags.map(tag => (
+                <a href={`/tags#${tag}`} class="tag-chip">{tag}</a>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+
+      <article class="markdown-body">
+        <slot />
+      </article>
+
+      <div class="post-divider"></div>
+
+      <!-- Author card -->
+      <div class="post-author-section">
+        <div class="author-avatar-lg">
+          <img src="/assets/img/profile_pic.jpg" alt="Goh Kun Shun" onerror="this.style.display='none';this.parentElement.textContent='K'" />
+        </div>
+        <div>
+          <div class="author-section-name">Goh Kun Shun</div>
+          <div class="author-section-bio">
+            Armchair historian with a degree in data science.
+            I like to share untold stories and occasionally write about tech.
+          </div>
+        </div>
+      </div>
+
+      <div class="post-divider"></div>
+
+      <!-- Prev / Next -->
+      {(prevPost || nextPost) && (
+        <div class="prev-next-grid">
+          {prevPost ? (
+            <a href={prevPost.url} class="prev-next-card">
+              <div class="pn-direction">← Previous post</div>
+              <div class="pn-title">{prevPost.title}</div>
+            </a>
+          ) : <div />}
+          {nextPost ? (
+            <a href={nextPost.url} class="prev-next-card" style="text-align:right;">
+              <div class="pn-direction">Next post →</div>
+              <div class="pn-title">{nextPost.title}</div>
+            </a>
+          ) : <div />}
+        </div>
+      )}
+
+      <div class="post-divider"></div>
+
+      <!-- Comments -->
+      <div class="comments-section">
+        <Disqus
+          shortname="xkhunx-github-io"
+          url={import.meta.env.PROD
+            ? `https://xkhunx.github.io${Astro.url.pathname}`
+            : Astro.url.toString()}
+          identifier={Astro.url.pathname}
+          title={title}
+        />
+      </div>
+    </main>
+
+    <!-- Right TOC (hidden on mobile/tablet via CSS) -->
+    <aside class="post-toc">
+      <div class="toc-sticky">
+        <div class="toc-label">Contents</div>
+        <div id="toc-container"></div>
+      </div>
+    </aside>
+  </div>
+
+  <Footer />
+</BaseLayout>
+
+<script>
+  // Auto-generate TOC from h2 headings in .markdown-body
+  const container = document.getElementById('toc-container');
+  const headings = [...document.querySelectorAll('.markdown-body h2, .markdown-body h3')];
+  if (container && headings.length > 0) {
+    const ul = document.createElement('ul');
+    ul.className = 'toc-list';
+    headings.forEach(h => {
+      if (!h.id) {
+        h.id = h.textContent!.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+      }
+      const li = document.createElement('li');
+      if (h.tagName === 'H3') li.style.paddingLeft = '12px';
+      const a = document.createElement('a');
+      a.href = `#${h.id}`;
+      a.textContent = h.textContent;
+      li.appendChild(a);
+      ul.appendChild(li);
+    });
+    container.appendChild(ul);
+
+    // Highlight active section on scroll:
+    // Find the last heading whose top is at or above the header bottom (76px).
+    const HEADER_OFFSET = 76;
+    function updateActiveToc() {
+      let active: Element | null = null;
+      for (const h of headings) {
+        if (h.getBoundingClientRect().top <= HEADER_OFFSET + 8) {
+          active = h;
+        } else {
+          break;
+        }
+      }
+      ul.querySelectorAll('li').forEach(li => li.classList.remove('active'));
+      if (active) {
+        ul.querySelector(`a[href="#${active.id}"]`)?.parentElement?.classList.add('active');
+      }
+    }
+    window.addEventListener('scroll', updateActiveToc, { passive: true });
+    updateActiveToc();
+  }
+
+</script>

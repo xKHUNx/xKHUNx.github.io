@@ -1,0 +1,62 @@
+---
+interface Slide {
+  title?: string;
+  caption?: string;
+  url: string;
+}
+
+interface Props {
+  name: string;
+  data: Slide[];
+}
+
+const { name, data } = Astro.props;
+const id = `carousel-${name}`;
+---
+
+<div class="carousel-wrap" id={id} data-carousel>
+  <div class="carousel-inner">
+    {data.map(slide => (
+      <div class="carousel-slide">
+        <img src={slide.url} alt={slide.title ?? ''} loading="lazy" />
+        {(slide.title || slide.caption) && (
+          <div class="carousel-caption">
+            {slide.title && <div class="carousel-caption-title">{slide.title}</div>}
+            {slide.caption && <div class="carousel-caption-text">{slide.caption}</div>}
+          </div>
+        )}
+      </div>
+    ))}
+  </div>
+
+  {data.length > 1 && (
+    <>
+      <button class="carousel-btn prev" aria-label="Previous slide">&#8592;</button>
+      <button class="carousel-btn next" aria-label="Next slide">&#8594;</button>
+      <div class="carousel-dots">
+        {data.map((_, i) => (
+          <button class:list={['carousel-dot', { active: i === 0 }]} aria-label={`Go to slide ${i + 1}`} data-index={i}></button>
+        ))}
+      </div>
+    </>
+  )}
+</div>
+
+<script>
+  document.querySelectorAll('[data-carousel]').forEach(carousel => {
+    const inner = carousel.querySelector('.carousel-inner') as HTMLElement;
+    const dots = carousel.querySelectorAll('.carousel-dot');
+    let current = 0;
+    const total = carousel.querySelectorAll('.carousel-slide').length;
+
+    function goTo(index: number) {
+      current = (index + total) % total;
+      inner.style.transform = `translateX(-${current * 100}%)`;
+      dots.forEach((d, i) => d.classList.toggle('active', i === current));
+    }
+
+    carousel.querySelector('.carousel-btn.prev')?.addEventListener('click', () => goTo(current - 1));
+    carousel.querySelector('.carousel-btn.next')?.addEventListener('click', () => goTo(current + 1));
+    dots.forEach((dot, i) => dot.addEventListener('click', () => goTo(i)));
+  });
+</script>

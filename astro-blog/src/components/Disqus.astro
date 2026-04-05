@@ -1,0 +1,49 @@
+---
+interface Props {
+  shortname: string;
+  url: string;
+  identifier: string;
+  title: string;
+}
+const { shortname, url, identifier, title } = Astro.props;
+---
+
+<div id="disqus_thread"></div>
+<script define:vars={{ shortname, url, identifier, title }}>
+  function getDisqusColorScheme() {
+    return document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+  }
+
+  var disqus_config = function () {
+    this.page.url = url;
+    this.page.identifier = identifier;
+    this.page.title = title;
+    this.page.colorScheme = getDisqusColorScheme();
+  };
+
+  (function () {
+    var d = document, s = d.createElement('script');
+    s.src = `https://${shortname}.disqus.com/embed.js`;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+
+  // Reload Disqus with new colour scheme whenever the theme toggles
+  window.addEventListener('themechange', function () {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: function () {
+          this.page.url = url;
+          this.page.identifier = identifier;
+          this.page.title = title;
+          this.page.colorScheme = getDisqusColorScheme();
+        },
+      });
+    }
+  });
+</script>
+<noscript>
+  Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>

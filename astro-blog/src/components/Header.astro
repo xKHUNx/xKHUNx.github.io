@@ -1,0 +1,50 @@
+---
+const currentPath = Astro.url.pathname;
+---
+
+<!-- Apply saved theme before paint to avoid flash -->
+<script is:inline>
+  (function () {
+    const saved = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (saved === 'dark' || (!saved && prefersDark)) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  })();
+</script>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-title" href="/">
+      <span class="site-title-dot"></span>
+      Khun's Blog
+    </a>
+    <nav class="site-nav">
+      <a href="/" aria-current={currentPath === '/' ? 'page' : undefined}>Home</a>
+      <a href="/tags" aria-current={currentPath.startsWith('/tags') ? 'page' : undefined}>Tags</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <span class="theme-icon theme-icon-sun">☀</span>
+        <span class="theme-icon theme-icon-moon">☾</span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById('theme-toggle')!;
+  const root = document.documentElement;
+
+  function isDark() {
+    return root.getAttribute('data-theme') === 'dark';
+  }
+
+  function applyTheme(dark: boolean) {
+    root.setAttribute('data-theme', dark ? 'dark' : 'light');
+    localStorage.setItem('theme', dark ? 'dark' : 'light');
+  }
+
+  btn.addEventListener('click', () => {
+    applyTheme(!isDark());
+    window.dispatchEvent(new Event('themechange'));
+  });
+</script>

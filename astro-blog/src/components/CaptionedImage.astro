@@ -1,0 +1,25 @@
+---
+interface Props {
+  src?: string;       // relative to /assets/img/
+  srcabs?: string;    // absolute URL
+  alt: string;
+  caption?: string;
+  url?: string;       // optional link wrapper
+  width?: string;
+  height?: string;
+}
+
+const { src, srcabs, alt, caption, url, width, height } = Astro.props;
+const imgSrc = srcabs ?? (src ? `/assets/img/${src}` : '');
+---
+
+<figure class="captioned-image">
+  {url ? (
+    <a href={url}>
+      <img src={imgSrc} alt={alt} width={width} height={height} style={width ? `width:${width};` : undefined} loading="lazy" />
+    </a>
+  ) : (
+    <img src={imgSrc} alt={alt} width={width} height={height} style={width ? `width:${width};` : undefined} loading="lazy" />
+  )}
+  {caption && <figcaption set:html={caption} />}
+</figure>

@@ -1,0 +1,127 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PostCard from '../components/PostCard.astro';
+
+const allPosts = (await getCollection('posts')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const latestPost = allPosts[0];
+const otherPosts = allPosts.slice(1);
+
+function getExcerpt(body: string, length: number) {
+  return body
+    .split('\n')
+    .filter(line => !line.startsWith('import '))
+    .join(' ')
+    .replace(/<[^>]+>/g, '')           // HTML tags
+    .replace(/!\[.*?\]\(.*?\)/g, '')   // markdown images
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // links → text
+    .replace(/[#*`{}[\]]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, length) + '…';
+}
+
+// Build tag counts for sidebar
+const tagCounts: Record<string, number> = {};
+for (const post of allPosts) {
+  for (const tag of post.data.tags) {
+    tagCounts[tag] = (tagCounts[tag] ?? 0) + 1;
+  }
+}
+const sortedTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]);
+
+function postUrl(post: typeof allPosts[0]) {
+  const d = post.data.date;
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  const slug = post.slug.replace(/^\d{4}-\d{2}-\d{2}-/, '');
+  return `/${y}/${m}/${day}/${slug}`;
+}
+
+const latestExcerpt = getExcerpt(latestPost.body, 180);
+---
+
+<BaseLayout title="Khun's Blog">
+  <Header />
+
+  <div class="container">
+    <!-- Hero: latest post -->
+    <div class="home-hero">
+      <div class="hero-kicker">Latest post</div>
+      <a href={postUrl(latestPost)} class="hero-title">{latestPost.data.title}</a>
+      <p class="hero-subtitle">{latestExcerpt}</p>
+      <div class="hero-meta">
+        <span>{latestPost.data.author}</span>
+        <span>·</span>
+        <span>{latestPost.data.date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+      </div>
+      {latestPost.data.tags.length > 0 && (
+        <div class="hero-tags">
+          {latestPost.data.tags.map(tag => (
+            <a href={`/tags#${tag}`} class="tag-chip">{tag}</a>
+          ))}
+        </div>
+      )}
+    </div>
+
+    <div class="home-body">
+      <!-- Posts grid -->
+      <div>
+        <div class="posts-section">
+          <div class="section-label">All posts</div>
+          <div class="post-grid">
+            {otherPosts.map(post => (
+              <PostCard
+                title={post.data.title}
+                url={postUrl(post)}
+                date={post.data.date}
+                cover={post.data.cover}
+                excerpt={getExcerpt(post.body, 120)}
+                tags={post.data.tags}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-block">
+          <div class="sidebar-heading">Author</div>
+          <div class="author-mini">
+            <div class="author-avatar">
+              <img src="/assets/img/profile_pic.jpg" alt="Goh Kun Shun" onerror="this.style.display='none';this.parentElement.textContent='K'" />
+            </div>
+            <div>
+              <div class="author-name">Goh Kun Shun</div>
+              <div class="author-handle">@xKHUNx</div>
+            </div>
+          </div>
+          <p class="author-bio-text">
+            Armchair historian with a degree in data science.
+            I like to share untold stories and occasionally write about tech.
+          </p>
+        </div>
+
+        <div class="sidebar-block">
+          <div class="sidebar-heading">Topics</div>
+          <div class="tag-list">
+            {sortedTags.map(([tag, count]) => (
+              <a href={`/tags#${tag}`} class="tag-list-item">
+                {tag} <span class="tag-count">{count}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <Footer />
+</BaseLayout>

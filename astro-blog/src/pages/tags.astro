@@ -1,0 +1,65 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const allPosts = (await getCollection('posts')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+// Group posts by tag
+const tagMap: Record<string, typeof allPosts> = {};
+for (const post of allPosts) {
+  for (const tag of post.data.tags) {
+    if (!tagMap[tag]) tagMap[tag] = [];
+    tagMap[tag].push(post);
+  }
+}
+const sortedTagNames = Object.keys(tagMap).sort((a, b) => tagMap[b].length - tagMap[a].length);
+
+function postUrl(post: typeof allPosts[0]) {
+  const d = post.data.date;
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  const slug = post.slug.replace(/^\d{4}-\d{2}-\d{2}-/, '');
+  return `/${y}/${m}/${day}/${slug}`;
+}
+---
+
+<BaseLayout title="Tags — Khun's Blog">
+  <Header />
+
+  <div class="tags-page">
+    <div class="tags-page-header">
+      <h1 class="tags-page-title">Tags</h1>
+    </div>
+
+    <!-- All tag pills for quick nav -->
+    <div class="all-tags-nav">
+      {sortedTagNames.map(tag => (
+        <a href={`#${tag}`} class="tag-chip">{tag} ({tagMap[tag].length})</a>
+      ))}
+    </div>
+
+    <!-- Per-tag sections -->
+    {sortedTagNames.map(tag => (
+      <div class="tag-section" id={tag}>
+        <div class="tag-section-name">{tag}</div>
+        <ul class="tag-post-list">
+          {tagMap[tag].map(post => (
+            <li>
+              <a href={postUrl(post)}>{post.data.title}</a>
+              <time datetime={post.data.date.toISOString()}>
+                {post.data.date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}
+              </time>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </div>
+
+  <Footer />
+</BaseLayout>

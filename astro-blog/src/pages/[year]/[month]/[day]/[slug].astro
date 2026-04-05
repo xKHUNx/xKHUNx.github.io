@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content';
+import PostLayout from '../../../../layouts/PostLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = (await getCollection('posts')).sort(
+    (a, b) => a.data.date.valueOf() - b.data.date.valueOf()
+  );
+
+  function cleanSlug(s: string) {
+    return s.replace(/^\d{4}-\d{2}-\d{2}-/, '');
+  }
+
+  return posts.map((post, index) => {
+    const d = post.data.date;
+    const year = String(d.getFullYear());
+    const month = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+
+    const prevPost = index > 0 ? posts[index - 1] : null;
+    const nextPost = index < posts.length - 1 ? posts[index + 1] : null;
+
+    function makeUrl(p: typeof posts[0]) {
+      const pd = p.data.date;
+      return `/${pd.getFullYear()}/${String(pd.getMonth() + 1).padStart(2, '0')}/${String(pd.getDate()).padStart(2, '0')}/${cleanSlug(p.slug)}`;
+    }
+
+    return {
+      params: { year, month, day, slug: cleanSlug(post.slug) },
+      props: {
+        post,
+        prevPost: prevPost ? { title: prevPost.data.title, url: makeUrl(prevPost) } : null,
+        nextPost: nextPost ? { title: nextPost.data.title, url: makeUrl(nextPost) } : null,
+      },
+    };
+  });
+}
+
+const { post, prevPost, nextPost } = Astro.props;
+const { Content } = await post.render();
+---
+
+<PostLayout post={post} prevPost={prevPost} nextPost={nextPost}>
+  <Content />
+</PostLayout>

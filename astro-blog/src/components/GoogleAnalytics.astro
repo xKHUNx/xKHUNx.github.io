@@ -1,0 +1,22 @@
+---
+interface Props {
+  trackingId: string;
+}
+const { trackingId } = Astro.props;
+const isProd = import.meta.env.PROD;
+---
+
+{isProd && (
+  <>
+    <script
+      async
+      src={`https://www.googletagmanager.com/gtag/js?id=${trackingId}`}
+    ></script>
+    <script define:vars={{ trackingId }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', trackingId);
+    </script>
+  </>
+)}
