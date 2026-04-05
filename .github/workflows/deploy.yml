@@ -30,8 +30,15 @@ jobs:
         run: npm install
         working-directory: astro-blog
 
-      - name: Remove sitemap package if present
-        run: rm -rf node_modules/@astrojs/sitemap
+      - name: Neutralize sitemap if present
+        run: |
+          SITEMAP="node_modules/@astrojs/sitemap/dist/index.js"
+          if [ -f "$SITEMAP" ]; then
+            printf 'export default function(){return{name:"@astrojs/sitemap",hooks:{}}}\n' > "$SITEMAP"
+            echo "Neutralized @astrojs/sitemap"
+          else
+            echo "@astrojs/sitemap not found, skipping"
+          fi
         working-directory: astro-blog
 
       - name: Build Astro site
