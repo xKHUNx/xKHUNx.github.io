@@ -25,11 +25,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
-          cache-dependency-path: astro-blog/package-lock.json
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
         working-directory: astro-blog
 
       - name: Build Astro site
