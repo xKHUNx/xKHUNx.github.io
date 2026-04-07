@@ -49,6 +49,16 @@ const currentUrl = canonicalUrl ?? new URL(Astro.url.pathname, siteUrl).href;
   <!-- Favicon -->
   <link rel="shortcut icon" href="/favicon.ico" />
 
+  <!-- Site name for Google -->
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Khun's Blog",
+      "url": "https://xkhunx.github.io"
+    })}
+  </script>
+
   <!-- MathJax -->
   <script>
     window.MathJax = {
