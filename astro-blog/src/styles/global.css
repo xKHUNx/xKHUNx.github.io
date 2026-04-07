@@ -94,6 +94,13 @@ body {
   display: inline-block;
   flex-shrink: 0;
 }
+.site-title-logo {
+  height: 1rem;
+  width: auto;
+  display: block;
+  flex-shrink: 0;
+  color: var(--accent);
+}
 .site-nav { display: flex; gap: 6px; align-items: center; }
 .site-nav a {
   font-family: var(--sans);
