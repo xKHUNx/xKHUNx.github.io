@@ -25,20 +25,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
+          cache-dependency-path: astro-blog/package-lock.json
 
       - name: Install dependencies
-        run: npm install
-        working-directory: astro-blog
-
-      - name: Neutralize sitemap if present
-        run: |
-          SITEMAP="node_modules/@astrojs/sitemap/dist/index.js"
-          if [ -f "$SITEMAP" ]; then
-            printf 'export default function(){return{name:"@astrojs/sitemap",hooks:{}}}\n' > "$SITEMAP"
-            echo "Neutralized @astrojs/sitemap"
-          else
-            echo "@astrojs/sitemap not found, skipping"
-          fi
+        run: npm ci
         working-directory: astro-blog
 
       - name: Build Astro site
