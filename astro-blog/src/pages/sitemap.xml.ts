@@ -12,7 +12,7 @@ function postUrl(post: Awaited<ReturnType<typeof getCollection<'posts'>>>[0]) {
   const y = d.getFullYear();
   const m = String(d.getMonth() + 1).padStart(2, '0');
   const day = String(d.getDate()).padStart(2, '0');
-  return `${SITE}/${y}/${m}/${day}/${cleanSlug(post.slug)}.html`;
+  return `${SITE}/${y}/${m}/${day}/${cleanSlug(post.slug)}`;
 }
 
 export const GET: APIRoute = async () => {
@@ -22,7 +22,7 @@ export const GET: APIRoute = async () => {
 
   const pages = [
     { url: `${SITE}/`, priority: '1.0' },
-    { url: `${SITE}/tags.html`, priority: '0.8' },
+    { url: `${SITE}/tags`, priority: '0.8' },
     ...posts.map(p => ({ url: postUrl(p), priority: '0.7' })),
   ];
 

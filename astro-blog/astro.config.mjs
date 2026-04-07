@@ -1,10 +1,9 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
-import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://xkhunx.github.io',
-  integrations: [mdx(), sitemap()],
+  integrations: [mdx()],
   redirects: {
     '/2019/08/18/welcome-to-khuns-blog.html': '/2019/08/18/welcome-to-khuns-blog',
     '/2019/08/25/the-mystery-of-the-broken-bridge-in-putrajaya.html': '/2019/08/25/the-mystery-of-the-broken-bridge-in-putrajaya',
